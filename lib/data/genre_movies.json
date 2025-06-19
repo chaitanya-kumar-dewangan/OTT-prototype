@@ -5,10 +5,58 @@
     "description": "A touching love story that explores destiny, passion, and sacrifice.",
     "thumbnailUrl": "https://images.filmibeat.com/img/popcorn/movie_posters/ghajinikanth-20180724095803-16686.jpg",
     "bannerUrl": "https://i.ytimg.com/vi/M8mCjRbCPIo/maxresdefault.jpg",
-    "genre": "Romance",
+    "genre": "Romantic Comedy",
     "rating": 3.8,
-    "releaseYear": 2016,
-    "category": "Romance"
+    "releaseYear": 2018,
+    "category": "Romance",
+    "duration": "2h 17m",
+    "language": "Tamil",
+    "director": "Santhosh P. Jayakumar",
+    "producer": "K. E. Gnanavel Raja",
+    "musicComposer": "Balamurali Balu",
+    "releaseDate": "2018-08-03",
+    "starCast": [
+      {
+        "name": "Arya",
+        "role": "Rajinikanth Ramanathan (Ghajinikanth)"
+      },
+      {
+        "name": "Sayyeshaa",
+        "role": "Vandhana Sathyamoorthy"
+      },
+      {
+        "name": "Aadukalam Naren",
+        "role": "Ramanathan (Rajini's father)"
+      },
+      {
+        "name": "Uma Padmanabhan",
+        "role": "Lakshmi (Rajini's mother)"
+      },
+      {
+        "name": "Sampath Raj",
+        "role": "Sathyamoorthy (Vandhana's father)"
+      },
+      {
+        "name": "Sathish",
+        "role": "Mohan"
+      },
+      {
+        "name": "Lijeesh",
+        "role": "Inspector Ajay"
+      },
+      {
+        "name": "Karunakaran",
+        "role": "Karuna"
+      },
+      {
+        "name": "Kaali Venkat",
+        "role": "Uthaman"
+      },
+      {
+        "name": "Rajendran",
+        "role": "Rajini's friend"
+      }
+    ]
   },
   {
     "id": 102,
@@ -19,7 +67,23 @@
     "genre": "Romance",
     "rating": 4.1,
     "releaseYear": 2017,
-    "category": "Romance"
+    "category": "Romance",
+    "duration": "2h 18m",
+    "language": "Hindi",
+    "director": "Maneesh Sharma",
+    "producer": "Aditya Chopra",
+    "musicComposer": "Vishal–Shekhar",
+    "releaseDate": "15 April 2016",
+    "starCast": [
+      {
+        "name": "Shah Rukh Khan",
+        "role": "Gaurav / Aryan"
+      },
+      {
+        "name": "Shriya Pilgaonkar",
+        "role": "Neha"
+      }
+    ]
   },
   {
     "id": 103,
@@ -30,7 +94,23 @@
     "genre": "Romance",
     "rating": 4.4,
     "releaseYear": 2018,
-    "category": "Romance"
+    "category": "Romance",
+    "duration": "2h 15m",
+    "language": "Malayalam",
+    "director": "Jenuse Mohamed",
+    "producer": "K. V. Vijayakumar",
+    "musicComposer": "Govind Menon",
+    "releaseDate": "20 March 2015",
+    "starCast": [
+      {
+        "name": "Dulquer Salmaan",
+        "role": "Balan K. Nair"
+      },
+      {
+        "name": "Nithya Menen",
+        "role": "Sheela"
+      }
+    ]
   },
   {
     "id": 104,
@@ -41,7 +121,23 @@
     "genre": "Romance",
     "rating": 4.7,
     "releaseYear": 2019,
-    "category": "Romance"
+    "category": "Romance",
+    "duration": "2h 36m",
+    "language": "Hindi",
+    "director": "Anubhav Sinha",
+    "producer": "Gauri Khan",
+    "musicComposer": "Vishal–Shekhar",
+    "releaseDate": "26 October 2011",
+    "starCast": [
+      {
+        "name": "Shah Rukh Khan",
+        "role": "Shekhar / G.One"
+      },
+      {
+        "name": "Kareena Kapoor",
+        "role": "Sonia"
+      }
+    ]
   },
   {
     "id": 105,
@@ -52,7 +148,23 @@
     "genre": "Romance",
     "rating": 3.5,
     "releaseYear": 2020,
-    "category": "Romance"
+    "category": "Romance",
+    "duration": "2h 12m",
+    "language": "Hindi",
+    "director": "Mohit Suri",
+    "producer": "Mukesh Bhatt",
+    "musicComposer": "Jeet Gannguli",
+    "releaseDate": "26 April 2013",
+    "starCast": [
+      {
+        "name": "Aditya Roy Kapur",
+        "role": "Rahul Jaykar"
+      },
+      {
+        "name": "Shraddha Kapoor",
+        "role": "Aarohi Shirke"
+      }
+    ]
   },
   {
     "id": 106,
@@ -63,7 +175,23 @@
     "genre": "Romance",
     "rating": 3.8,
     "releaseYear": 2021,
-    "category": "Romance"
+    "category": "Romance",
+    "duration": "2h 56m",
+    "language": "Hindi",
+    "director": "Yash Chopra",
+    "producer": "Aditya Chopra",
+    "musicComposer": "A. R. Rahman",
+    "releaseDate": "13 November 2012",
+    "starCast": [
+      {
+        "name": "Shah Rukh Khan",
+        "role": "Samar Anand"
+      },
+      {
+        "name": "Katrina Kaif",
+        "role": "Meera"
+      }
+    ]
   },
   {
     "id": 107,
@@ -74,7 +202,23 @@
     "genre": "Romance",
     "rating": 4.1,
     "releaseYear": 2022,
-    "category": "Romance"
+    "category": "Romance",
+    "duration": "2h 34m",
+    "language": "Hindi",
+    "director": "Radhika Rao",
+    "producer": "Deepak Mukut",
+    "musicComposer": "Himesh Reshammiya",
+    "releaseDate": "5 February 2016",
+    "starCast": [
+      {
+        "name": "Harshvardhan Rane",
+        "role": "Inder"
+      },
+      {
+        "name": "Mawra Hocane",
+        "role": "Saru"
+      }
+    ]
   },
   {
     "id": 108,
@@ -85,7 +229,23 @@
     "genre": "Romance",
     "rating": 4.4,
     "releaseYear": 2015,
-    "category": "Romance"
+    "category": "Romance",
+    "duration": "2h 15m",
+    "language": "Hindi",
+    "director": "Mohit Suri",
+    "producer": "Shobha Kapoor",
+    "musicComposer": "Mithoon",
+    "releaseDate": "19 May 2017",
+    "starCast": [
+      {
+        "name": "Arjun Kapoor",
+        "role": "Madhav Jha"
+      },
+      {
+        "name": "Shraddha Kapoor",
+        "role": "Riya Somani"
+      }
+    ]
   },
   {
     "id": 109,
@@ -96,7 +256,23 @@
     "genre": "Romance",
     "rating": 4.7,
     "releaseYear": 2016,
-    "category": "Romance"
+    "category": "Romance",
+    "duration": "1h 41m",
+    "language": "Hindi",
+    "director": "Mukesh Chhabra",
+    "producer": "Fox Star Studios",
+    "musicComposer": "A. R. Rahman",
+    "releaseDate": "24 July 2020",
+    "starCast": [
+      {
+        "name": "Sushant Singh Rajput",
+        "role": "Manny"
+      },
+      {
+        "name": "Sanjana Sanghi",
+        "role": "Kizie"
+      }
+    ]
   },
   {
     "id": 110,
@@ -107,7 +283,23 @@
     "genre": "Romance",
     "rating": 3.5,
     "releaseYear": 2017,
-    "category": "Romance"
+    "category": "Romance",
+    "duration": "1h 55m",
+    "language": "Hindi",
+    "director": "Shoojit Sircar",
+    "producer": "Ronnie Lahiri",
+    "musicComposer": "Shantanu Moitra",
+    "releaseDate": "13 April 2018",
+    "starCast": [
+      {
+        "name": "Varun Dhawan",
+        "role": "Dan"
+      },
+      {
+        "name": "Banita Sandhu",
+        "role": "Shiuli"
+      }
+    ]
   },
   {
     "id": 111,
@@ -118,7 +310,31 @@
     "genre": "Mystery",
     "rating": 3.8,
     "releaseYear": 2016,
-    "category": "Mystery"
+    "category": "Mystery",
+    "duration": "2h 37m",
+    "language": "English",
+    "director": "David Fincher",
+    "producer": "Mike Medavoy, Bradley J. Fischer, Arnold Messer, Ceán Chaffin",
+    "musicComposer": "David Shire",
+    "releaseDate": "2007-03-02",
+    "starCast": [
+      {
+        "name": "Jake Gyllenhaal",
+        "role": "Robert Graysmith"
+      },
+      {
+        "name": "Mark Ruffalo",
+        "role": "Dave Toschi"
+      },
+      {
+        "name": "Robert Downey Jr.",
+        "role": "Paul Avery"
+      },
+      {
+        "name": "Anthony Edwards",
+        "role": "Bill Armstrong"
+      }
+    ]
   },
   {
     "id": 112,
@@ -129,7 +345,27 @@
     "genre": "Mystery",
     "rating": 4.1,
     "releaseYear": 2017,
-    "category": "Mystery"
+    "category": "Mystery",
+    "duration": "2h 43m",
+    "language": "Hindi",
+    "director": "Nishikant Kamat",
+    "producer": "Kumar Mangat Pathak, Ajit Andhare, Abhishek Pathak",
+    "musicComposer": "Vishal Bhardwaj (songs), Sameer Phaterpekar (score)",
+    "releaseDate": "2015-07-31",
+    "starCast": [
+      {
+        "name": "Ajay Devgn",
+        "role": "Vijay Salgaonkar"
+      },
+      {
+        "name": "Shriya Saran",
+        "role": "Nandini Salgaonkar"
+      },
+      {
+        "name": "Tabu",
+        "role": "IGP Geetha Prabhakar"
+      }
+    ]
   },
   {
     "id": 113,
@@ -137,10 +373,26 @@
     "description": "A captivating mystery movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://preview.redd.it/official-poster-for-murder-mystery-2-v0-pgpy1ava6jma1.jpg?width=1080&crop=smart&auto=webp&s=9f764f3afcdde11397512d5f42400bd1a913a5c0",
     "bannerUrl": "https://dl.moviesr.net/images/TuKYY.jpg",
-    "genre": "Mystery",
+    "genre": "Mystery Comedy",
     "rating": 4.4,
     "releaseYear": 2018,
-    "category": "Mystery"
+    "category": "Mystery",
+    "duration": "1h 30m",
+    "language": "English",
+    "director": "Jeremy Garelick",
+    "producer": "Nancy Juvonen, Jennifer Aniston",
+    "musicComposer": "Zain Effendi",
+    "releaseDate": "2023-03-31",
+    "starCast": [
+      {
+        "name": "Adam Sandler",
+        "role": "Nick Spitz"
+      },
+      {
+        "name": "Jennifer Aniston",
+        "role": "Audrey Spitz"
+      }
+    ]
   },
   {
     "id": 114,
@@ -151,7 +403,23 @@
     "genre": "Mystery",
     "rating": 4.7,
     "releaseYear": 2019,
-    "category": "Mystery"
+    "category": "Mystery",
+    "duration": "1h 47m",
+    "language": "Hindi",
+    "director": "Honey Trehan",
+    "producer": "Ekta Kapoor, Rhea Kapoor, Guneet Monga",
+    "musicComposer": "Sneha Khanwalkar",
+    "releaseDate": "2020-01-31",
+    "starCast": [
+      {
+        "name": "Nawazuddin Siddiqui",
+        "role": "Police Officer Jatil Yadav"
+      },
+      {
+        "name": "Radhika Apte",
+        "role": "Rekha"
+      }
+    ]
   },
   {
     "id": 115,
@@ -159,10 +427,26 @@
     "description": "A captivating mystery movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0TvTcKH96eW3QRiXTGzZnEDl0ukrsY247Zg&s",
     "bannerUrl": "https://tomindia.s3.ap-south-1.amazonaws.com/prod/uploads/banner/MgOTFVU6fws7CmRugYl6_Munjya_TomorrowsIndia.jpg",
-    "genre": "Mystery",
+    "genre": "Mystery Fantasy",
     "rating": 3.5,
     "releaseYear": 2020,
-    "category": "Mystery"
+    "category": "Mystery",
+    "duration": "2h 14m",
+    "language": "Hindi",
+    "director": "Aditya Sarpotdar",
+    "producer": "Vinod Bachchan, Zee Studios",
+    "musicComposer": "Raghav Sachar",
+    "releaseDate": "2021-01-01",
+    "starCast": [
+      {
+        "name": "Siddharth Chandekar",
+        "role": "Munjya"
+      },
+      {
+        "name": "Isha Keskar",
+        "role": "Munjya's love interest"
+      }
+    ]
   },
   {
     "id": 116,
@@ -170,10 +454,26 @@
     "description": "A captivating mystery movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBC5ikiX55WeIReiGRJihE-_SqRoYZVQEKbA&s",
     "bannerUrl": "https://i.ytimg.com/vi/zwCBT0WuGn0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBDq7sMTB02kXZplFSJ49S01shzFg",
-    "genre": "Mystery",
+    "genre": "Mystery Thriller",
     "rating": 3.8,
     "releaseYear": 2021,
-    "category": "Mystery"
+    "category": "Mystery",
+    "duration": "2h 05m",
+    "language": "Hindi",
+    "director": "Kookie Gulati",
+    "producer": "Sajid Nadiadwala",
+    "musicComposer": "Tanishk Bagchi",
+    "releaseDate": "2021-11-11",
+    "starCast": [
+      {
+        "name": "Sara Ali Khan",
+        "role": "Keerti"
+      },
+      {
+        "name": "Aditya Seal",
+        "role": "Dev"
+      }
+    ]
   },
   {
     "id": 117,
@@ -181,10 +481,26 @@
     "description": "A captivating mystery movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BY2RjNjZlOWYtOTQxOC00NjQ4LThiMDQtM2RmNWJhZDdlNjhhXkEyXkFqcGc@._V1_.jpg",
     "bannerUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00007655-csmmguaqpq-landscape.jpg",
-    "genre": "Mystery",
+    "genre": "Mystery Thriller",
     "rating": 4.1,
     "releaseYear": 2022,
-    "category": "Mystery"
+    "category": "Mystery",
+    "duration": "2h 10m",
+    "language": "Hindi",
+    "director": "Sujoy Ghosh",
+    "producer": "Sujoy Ghosh, Sunil Manchanda",
+    "musicComposer": "Neel Dutt",
+    "releaseDate": "2016-11-08",
+    "starCast": [
+      {
+        "name": "Vidya Balan",
+        "role": "Durga Raina"
+      },
+      {
+        "name": "Arjun Rampal",
+        "role": "Inderjeet Raina"
+      }
+    ]
   },
   {
     "id": 118,
@@ -192,10 +508,26 @@
     "description": "A captivating mystery movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/maharaja-et00399737-1719557119.jpg",
     "bannerUrl": "https://varnam.my/wp-content/uploads/2024/07/maharaja-poster-1718259421.webp",
-    "genre": "Mystery",
+    "genre": "Mystery Drama",
     "rating": 4.4,
     "releaseYear": 2015,
-    "category": "Mystery"
+    "category": "Mystery",
+    "duration": "2h 20m",
+    "language": "Malayalam",
+    "director": "Nadirshah",
+    "producer": "M. Radhakrishnan",
+    "musicComposer": "Deepak Dev",
+    "releaseDate": "2015-11-13",
+    "starCast": [
+      {
+        "name": "Dileep",
+        "role": "Kuruvachan"
+      },
+      {
+        "name": "Shivada Nair",
+        "role": "Manjima"
+      }
+    ]
   },
   {
     "id": 119,
@@ -203,10 +535,26 @@
     "description": "A captivating mystery movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ87YSvuD424MViZSETjfTQYchBhmlfiOjWRSU21pLpDaiwfrPUu5iUiAuN1HuYHItpuoY&usqp=CAU",
     "bannerUrl": "https://i.ytimg.com/vi/WVif58DA404/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAGKBCdHkNTRIdpblDufeu5IyPPGg",
-    "genre": "Mystery",
+    "genre": "Historical Mystery",
     "rating": 4.7,
     "releaseYear": 2016,
-    "category": "Mystery"
+    "category": "Mystery",
+    "duration": "2h 30m",
+    "language": "Marathi",
+    "director": "Abhijeet Deshpande",
+    "producer": "Ajit Ranade",
+    "musicComposer": "Chinar–Mahesh",
+    "releaseDate": "2019-08-26",
+    "starCast": [
+      {
+        "name": "Riteish Deshmukh",
+        "role": "Chhatrapati Shivaji Maharaj"
+      },
+      {
+        "name": "Sharad Kelkar",
+        "role": "Khadak"
+      }
+    ]
   },
   {
     "id": 120,
@@ -214,21 +562,57 @@
     "description": "A captivating mystery movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://wp.scoopwhoop.com/wp-content/uploads/2023/03/Screenshot-1-2.png",
     "bannerUrl": "https://images.justwatch.com/backdrop/327523040/s640/table-no-21",
-    "genre": "Mystery",
+    "genre": "Mystery Thriller",
     "rating": 3.5,
     "releaseYear": 2017,
-    "category": "Mystery"
+    "category": "Mystery",
+    "duration": "1h 55m",
+    "language": "Hindi",
+    "director": "Aditya Datt",
+    "producer": "Vipul Amrutlal Shah",
+    "musicComposer": "Pritam",
+    "releaseDate": "2013-10-11",
+    "starCast": [
+      {
+        "name": "Pawan Malhotra",
+        "role": "Ravi Sinha"
+      },
+      {
+        "name": "Tena Desae",
+        "role": "Anita"
+      }
+    ]
   },
   {
     "id": 121,
-    "title": "Aladin",
+    "title": "Aladdin",
     "description": "A captivating children movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://w0.peakpx.com/wallpaper/739/138/HD-wallpaper-aladdin-art-cartoon-animation-magic-gennie-disney.jpg",
     "bannerUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0nZ-r-EkOVnIUlH65O4fuNGzCSB2_jX_kpZwBATfNE9Qp-3_M7XoG9fwDCVJVyvT0zH8&usqp=CAU",
     "genre": "Children",
     "rating": 3.8,
     "releaseYear": 2016,
-    "category": "Children"
+    "category": "Children",
+    "duration": "2h 8m",
+    "language": "English",
+    "director": "Guy Ritchie",
+    "producer": "Dan Lin, Jonathan Eirich",
+    "musicComposer": "Alan Menken",
+    "releaseDate": "2019-05-24",
+    "starCast": [
+      {
+        "name": "Will Smith",
+        "role": "Genie"
+      },
+      {
+        "name": "Mena Massoud",
+        "role": "Aladdin"
+      },
+      {
+        "name": "Naomi Scott",
+        "role": "Jasmine"
+      }
+    ]
   },
   {
     "id": 122,
@@ -239,7 +623,23 @@
     "genre": "Children",
     "rating": 4.1,
     "releaseYear": 2017,
-    "category": "Children"
+    "category": "Children",
+    "duration": "1h 45m",
+    "language": "English",
+    "director": "TBA",
+    "producer": "TBA",
+    "musicComposer": "TBA",
+    "releaseDate": "2017-08-15",
+    "starCast": [
+      {
+        "name": "Actor A",
+        "role": "Lead"
+      },
+      {
+        "name": "Actor B",
+        "role": "Sidekick"
+      }
+    ]
   },
   {
     "id": 123,
@@ -250,7 +650,23 @@
     "genre": "Children",
     "rating": 4.4,
     "releaseYear": 2018,
-    "category": "Children"
+    "category": "Children",
+    "duration": "2h 2m",
+    "language": "English",
+    "director": "TBA",
+    "producer": "TBA",
+    "musicComposer": "TBA",
+    "releaseDate": "2018-06-22",
+    "starCast": [
+      {
+        "name": "Actor C",
+        "role": "Explorer"
+      },
+      {
+        "name": "Actor D",
+        "role": "Scientist"
+      }
+    ]
   },
   {
     "id": 124,
@@ -261,7 +677,31 @@
     "genre": "Children",
     "rating": 4.7,
     "releaseYear": 2019,
-    "category": "Children"
+    "category": "Children",
+    "duration": "1h 40m",
+    "language": "English",
+    "director": "Andrew Stanton, Lee Unkrich",
+    "producer": "Graham Walters",
+    "musicComposer": "Thomas Newman",
+    "releaseDate": "2003-05-30",
+    "starCast": [
+      {
+        "name": "Albert Brooks",
+        "role": "Marlin"
+      },
+      {
+        "name": "Ellen DeGeneres",
+        "role": "Dory"
+      },
+      {
+        "name": "Alexander Gould",
+        "role": "Nemo"
+      },
+      {
+        "name": "Willem Dafoe",
+        "role": "Gill"
+      }
+    ]
   },
   {
     "id": 125,
@@ -272,7 +712,23 @@
     "genre": "Children",
     "rating": 3.5,
     "releaseYear": 2020,
-    "category": "Children"
+    "category": "Children",
+    "duration": "1h 21m",
+    "language": "English",
+    "director": "John Lasseter",
+    "producer": "Randy Newman",
+    "musicComposer": "Randy Newman",
+    "releaseDate": "1995-11-22",
+    "starCast": [
+      {
+        "name": "Tom Hanks",
+        "role": "Woody"
+      },
+      {
+        "name": "Tim Allen",
+        "role": "Buzz Lightyear"
+      }
+    ]
   },
   {
     "id": 126,
@@ -283,7 +739,23 @@
     "genre": "Children",
     "rating": 3.8,
     "releaseYear": 2021,
-    "category": "Children"
+    "category": "Children",
+    "duration": "1h 35m",
+    "language": "English",
+    "director": "Pierre Coffin, Chris Renaud",
+    "producer": "Chris Meledandri",
+    "musicComposer": "Heitor Pereira",
+    "releaseDate": "2010-07-09",
+    "starCast": [
+      {
+        "name": "Steve Carell",
+        "role": "Gru"
+      },
+      {
+        "name": "Jason Segel",
+        "role": "Vector"
+      }
+    ]
   },
   {
     "id": 127,
@@ -294,7 +766,23 @@
     "genre": "Children",
     "rating": 4.1,
     "releaseYear": 2022,
-    "category": "Children"
+    "category": "Children",
+    "duration": "1h 47m",
+    "language": "English",
+    "director": "Ron Clements, John Musker",
+    "producer": "Osnat Shurer",
+    "musicComposer": "Lin-Manuel Miranda, Mark Mancina",
+    "releaseDate": "2016-11-23",
+    "starCast": [
+      {
+        "name": "Auliʻi Cravalho",
+        "role": "Moana"
+      },
+      {
+        "name": "Dwayne Johnson",
+        "role": "Maui"
+      }
+    ]
   },
   {
     "id": 128,
@@ -305,7 +793,23 @@
     "genre": "Children",
     "rating": 4.4,
     "releaseYear": 2015,
-    "category": "Children"
+    "category": "Children",
+    "duration": "1h 48m",
+    "language": "English",
+    "director": "Byron Howard, Rich Moore",
+    "producer": "Clark Spencer",
+    "musicComposer": "Michael Giacchino",
+    "releaseDate": "2016-03-04",
+    "starCast": [
+      {
+        "name": "Ginnifer Goodwin",
+        "role": "Judy Hopps"
+      },
+      {
+        "name": "Jason Bateman",
+        "role": "Nick Wilde"
+      }
+    ]
   },
   {
     "id": 129,
@@ -316,7 +820,23 @@
     "genre": "Children",
     "rating": 4.7,
     "releaseYear": 2016,
-    "category": "Children"
+    "category": "Children",
+    "duration": "1h 45m",
+    "language": "English",
+    "director": "Lee Unkrich, Adrian Molina",
+    "producer": "Darla K. Anderson",
+    "musicComposer": "Michael Giacchino",
+    "releaseDate": "2017-11-22",
+    "starCast": [
+      {
+        "name": "Anthony Gonzalez",
+        "role": "Miguel"
+      },
+      {
+        "name": "Benjamin Bratt",
+        "role": "Héctor"
+      }
+    ]
   },
   {
     "id": 130,
@@ -327,29 +847,77 @@
     "genre": "Children",
     "rating": 3.5,
     "releaseYear": 2017,
-    "category": "Children"
+    "category": "Children",
+    "duration": "1h 32m",
+    "language": "English",
+    "director": "Mark Osborne, John Stevenson",
+    "producer": "Melissa Cobb",
+    "musicComposer": "Hans Zimmer, John Powell",
+    "releaseDate": "2008-06-06",
+    "starCast": [
+      {
+        "name": "Jack Black",
+        "role": "Po"
+      },
+      {
+        "name": "Dustin Hoffman",
+        "role": "Shifu"
+      }
+    ]
   },
   {
     "id": 131,
     "title": "The Conjuring",
     "description": "A captivating horror movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://c8.alamy.com/comp/2JDPTAP/chairposter-the-conjuring-2013-2JDPTAP.jpg",
-    "bannerUrl": "https://www.susangranger.com/wp-content/uploads/2021/06/Conjuring-3-Banner.jpg",
+    "bannerUrl": "https://c8.alamy.com/comp/2JDPTAP/chairposter-the-conjuring-2013-2JDPTAP.jpg",
     "genre": "Horror",
     "rating": 3.8,
     "releaseYear": 2016,
-    "category": "Horror"
+    "category": "Horror",
+    "duration": "1h 52m",
+    "language": "English",
+    "director": "James Wan",
+    "producer": "Tony DeRosa-Grund, Peter Safran",
+    "musicComposer": "Joseph Bishara",
+    "releaseDate": "2013-07-19",
+    "starCast": [
+      {
+        "name": "Vera Farmiga",
+        "role": "Lorraine Warren"
+      },
+      {
+        "name": "Patrick Wilson",
+        "role": "Ed Warren"
+      }
+    ]
   },
   {
     "id": 132,
     "title": "Insidious",
     "description": "A captivating horror movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://i.pinimg.com/736x/ee/cc/8e/eecc8e3f63c09384eddd660f5a6734e7.jpg",
-    "bannerUrl": "https://image.tmdb.org/t/p/original/yZP6GyrgzdpjH1AxPHlb8ACLkiA.jpg",
+    "bannerUrl": "https://i.pinimg.com/736x/ee/cc/8e/eecc8e3f63c09384eddd660f5a6734e7.jpg",
     "genre": "Horror",
     "rating": 4.1,
     "releaseYear": 2017,
-    "category": "Horror"
+    "category": "Horror",
+    "duration": "1h 43m",
+    "language": "English",
+    "director": "James Wan",
+    "producer": "Jason Blum, Oren Peli",
+    "musicComposer": "Joseph Bishara",
+    "releaseDate": "2010-09-14",
+    "starCast": [
+      {
+        "name": "Patrick Wilson",
+        "role": "Josh Lambert"
+      },
+      {
+        "name": "Rose Byrne",
+        "role": "Renai Lambert"
+      }
+    ]
   },
   {
     "id": 133,
@@ -360,84 +928,212 @@
     "genre": "Horror",
     "rating": 4.4,
     "releaseYear": 2018,
-    "category": "Horror"
+    "category": "Horror",
+    "duration": "2h 7m",
+    "language": "English",
+    "director": "Ari Aster",
+    "producer": "Kevin Frakes, Lars Knudsen",
+    "musicComposer": "Colin Stetson",
+    "releaseDate": "2018-06-08",
+    "starCast": [
+      {
+        "name": "Toni Collette",
+        "role": "Annie Graham"
+      },
+      {
+        "name": "Alex Wolff",
+        "role": "Peter Graham"
+      }
+    ]
   },
   {
     "id": 134,
     "title": "The Exorcist",
     "description": "A captivating horror movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKHlfL1Oy25gNX5OU23odn_1mB9g6OtcTG8g&s",
-    "bannerUrl": "https://variety.com/wp-content/uploads/2023/10/The-Exorcist-Believer.jpg",
+    "bannerUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKHlfL1Oy25gNX5OU23odn_1mB9g6OtcTG8g&s",
     "genre": "Horror",
     "rating": 4.7,
     "releaseYear": 2019,
-    "category": "Horror"
+    "category": "Horror",
+    "duration": "2h 2m",
+    "language": "English",
+    "director": "William Friedkin",
+    "producer": "William Peter Blatty",
+    "musicComposer": "Mike Oldfield",
+    "releaseDate": "1973-12-26",
+    "starCast": [
+      {
+        "name": "Ellen Burstyn",
+        "role": "Chris MacNeil"
+      },
+      {
+        "name": "Linda Blair",
+        "role": "Regan MacNeil"
+      }
+    ]
   },
   {
     "id": 135,
     "title": "Get Out",
     "description": "A captivating horror movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://i.pinimg.com/564x/91/a2/7d/91a27d1bdb7c2f0061e8251bafa7e9cd.jpg",
-    "bannerUrl": "https://cdn.britannica.com/55/258155-050-B06BF2AC/daniel-kaluuya-movie-get-out.jpg",
+    "bannerUrl": "https://i.pinimg.com/564x/91/a2/7d/91a27d1bdb7c2f0061e8251bafa7e9cd.jpg",
     "genre": "Horror",
     "rating": 3.5,
     "releaseYear": 2020,
-    "category": "Horror"
+    "category": "Horror",
+    "duration": "1h 44m",
+    "language": "English",
+    "director": "Jordan Peele",
+    "producer": "Jason Blum, Sean McKittrick",
+    "musicComposer": "Michael Abels",
+    "releaseDate": "2017-02-24",
+    "starCast": [
+      {
+        "name": "Daniel Kaluuya",
+        "role": "Chris Washington"
+      },
+      {
+        "name": "Allison Williams",
+        "role": "Rose Armitage"
+      }
+    ]
   },
   {
     "id": 136,
     "title": "A Quiet Place",
     "description": "A captivating horror movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://i.pinimg.com/736x/5a/b5/46/5ab546ebe779804366361c4e971adaed.jpg",
-    "bannerUrl": "https://cdn.mos.cms.futurecdn.net/TRsnPPgPnuuy7qJo2o8rV6.jpg",
+    "bannerUrl": "https://i.pinimg.com/736x/5a/b5/46/5ab546ebe779804366361c4e971adaed.jpg",
     "genre": "Horror",
     "rating": 3.8,
     "releaseYear": 2021,
-    "category": "Horror"
+    "category": "Horror",
+    "duration": "1h 30m",
+    "language": "English",
+    "director": "John Krasinski",
+    "producer": "Michael Bay, Andrew Form",
+    "musicComposer": "Marco Beltrami",
+    "releaseDate": "2018-04-06",
+    "starCast": [
+      {
+        "name": "Emily Blunt",
+        "role": "Evelyn Abbott"
+      },
+      {
+        "name": "John Krasinski",
+        "role": "Lee Abbott"
+      }
+    ]
   },
   {
     "id": 137,
     "title": "It",
     "description": "A captivating horror movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://m.media-amazon.com/images/I/61meUKi962L._AC_UF894,1000_QL80_.jpg",
-    "bannerUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR21ip0BddgX1nNISDKjeGhYHpKBNTDj05yKA&s",
+    "bannerUrl": "https://m.media-amazon.com/images/I/61meUKi962L._AC_UF894,1000_QL80_.jpg",
     "genre": "Horror",
     "rating": 4.1,
     "releaseYear": 2022,
-    "category": "Horror"
+    "category": "Horror",
+    "duration": "2h 15m",
+    "language": "English",
+    "director": "Andy Muschietti",
+    "producer": "Roy Lee, Dan Lin",
+    "musicComposer": "Benjamin Wallfisch",
+    "releaseDate": "2017-09-08",
+    "starCast": [
+      {
+        "name": "Bill Skarsgård",
+        "role": "Pennywise"
+      },
+      {
+        "name": "Jaeden Martell",
+        "role": "Bill Denbrough"
+      }
+    ]
   },
   {
     "id": 138,
     "title": "The Babadook",
     "description": "A captivating horror movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://image.tmdb.org/t/p/original/ArPWMf2leE6H9IIJ3tHVt6uewLR.jpg",
-    "bannerUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/b9272019851189.562ee21033a1c.jpg",
+    "bannerUrl": "https://image.tmdb.org/t/p/original/ArPWMf2leE6H9IIJ3tHVt6uewLR.jpg",
     "genre": "Horror",
     "rating": 4.4,
     "releaseYear": 2015,
-    "category": "Horror"
+    "category": "Horror",
+    "duration": "1h 34m",
+    "language": "English",
+    "director": "Jennifer Kent",
+    "producer": "Kristina Ceyton",
+    "musicComposer": "Jed Kurzel",
+    "releaseDate": "2014-11-28",
+    "starCast": [
+      {
+        "name": "Essie Davis",
+        "role": "Amelia"
+      },
+      {
+        "name": "Noah Wiseman",
+        "role": "Samuel"
+      }
+    ]
   },
   {
     "id": 139,
     "title": "Adbhut",
     "description": "A captivating horror movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BYzYyODk2YTQtM2ExYi00YTFjLWFjMWMtMzY4MDYwYmMwMGFkXkEyXkFqcGc@._V1_.jpg",
-    "bannerUrl": "https://assetscdn1.paytm.com/images/cinema/Adbhut--5c14f0f0-2761-11ec-a1a4-1777b03932a0.jpg",
+    "bannerUrl": "https://m.media-amazon.com/images/M/MV5BYzYyODk2YTQtM2ExYi00YTFjLWFjMWMtMzY4MDYwYmMwMGFkXkEyXkFqcGc@._V1_.jpg",
     "genre": "Horror",
     "rating": 4.7,
     "releaseYear": 2016,
-    "category": "Horror"
+    "category": "Horror",
+    "duration": "1h 40m",
+    "language": "Hindi",
+    "director": "Sabbir Khan",
+    "producer": "Sabbir Khan Films",
+    "musicComposer": "TBD",
+    "releaseDate": "2024-08-15",
+    "starCast": [
+      {
+        "name": "Nawazuddin Siddiqui",
+        "role": "Lead"
+      },
+      {
+        "name": "Diana Penty",
+        "role": "Supporting"
+      }
+    ]
   },
   {
     "id": 140,
     "title": "The Ring",
     "description": "A captivating horror movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://m.media-amazon.com/images/I/616GWLUvnVL._AC_UF894,1000_QL80_.jpg",
-    "bannerUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU9hzW7_EkN2gdfOh-nKD6nKAZobA3Y4RYNw&s",
+    "bannerUrl": "https://m.media-amazon.com/images/I/616GWLUvnVL._AC_UF894,1000_QL80_.jpg",
     "genre": "Horror",
     "rating": 3.5,
     "releaseYear": 2017,
-    "category": "Horror"
+    "category": "Horror",
+    "duration": "1h 55m",
+    "language": "English",
+    "director": "Gore Verbinski",
+    "producer": "Walter F. Parkes, Laurie MacDonald",
+    "musicComposer": "Hans Zimmer",
+    "releaseDate": "2002-10-18",
+    "starCast": [
+      {
+        "name": "Naomi Watts",
+        "role": "Rachel Keller"
+      },
+      {
+        "name": "Martin Henderson",
+        "role": "Noah Clay"
+      }
+    ]
   },
   {
     "id": 151,
@@ -448,29 +1144,77 @@
     "genre": "Cartoon",
     "rating": 3.8,
     "releaseYear": 2016,
-    "category": "Cartoon"
+    "category": "Cartoon",
+    "duration": "1h 28m",
+    "language": "English",
+    "director": "Roger Allers, Rob Minkoff",
+    "producer": "Don Hahn",
+    "musicComposer": "Hans Zimmer, Elton John",
+    "releaseDate": "1994-06-15",
+    "starCast": [
+      {
+        "name": "Matthew Broderick",
+        "role": "Adult Simba"
+      },
+      {
+        "name": "Jeremy Irons",
+        "role": "Scar"
+      }
+    ]
   },
   {
     "id": 152,
-    "title": "The Return Jafar",
+    "title": "The Return of Jafar",
     "description": "A captivating cartoon movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://i.etsystatic.com/15472631/r/il/2b51ee/3821737011/il_570xN.3821737011_77pq.jpg",
     "bannerUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtwS7xStYxVR4Dl591pxXb3DpqlAyK-EhZSA&s",
     "genre": "Cartoon",
     "rating": 4.1,
     "releaseYear": 2017,
-    "category": "Cartoon"
+    "category": "Cartoon",
+    "duration": "1h 9m",
+    "language": "English",
+    "director": "Toby Shelton, Alan Zaslove",
+    "producer": "Tad Stones, Alan Zaslove",
+    "musicComposer": "Mark Watters",
+    "releaseDate": "1994-05-20",
+    "starCast": [
+      {
+        "name": "Scott Weinger",
+        "role": "Aladdin"
+      },
+      {
+        "name": "Jonathan Freeman",
+        "role": "Jafar"
+      }
+    ]
   },
   {
     "id": 153,
-    "title": "hanuman Returns",
+    "title": "Hanuman Returns",
     "description": "A captivating cartoon movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://i.redd.it/what-are-some-best-indian-animation-you-have-seen-v0-8xxzhawkb1md1.jpg?width=900&format=pjpg&auto=webp&s=ab053137deac622a5f7d4f4c46e0c2fe9fa1bbce",
     "bannerUrl": "https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/8657/1398657-i-08905034e560",
     "genre": "Cartoon",
     "rating": 4.4,
     "releaseYear": 2018,
-    "category": "Cartoon"
+    "category": "Cartoon",
+    "duration": "1h 25m",
+    "language": "Hindi",
+    "director": "Anurag Kashyap",
+    "producer": "Percept Picture Company",
+    "musicComposer": "Tapas Relia",
+    "releaseDate": "2007-12-28",
+    "starCast": [
+      {
+        "name": "Daaman",
+        "role": "Hanuman (voice)"
+      },
+      {
+        "name": "Saurav Chakraborty",
+        "role": "Narrator"
+      }
+    ]
   },
   {
     "id": 154,
@@ -481,7 +1225,23 @@
     "genre": "Cartoon",
     "rating": 4.7,
     "releaseYear": 2019,
-    "category": "Cartoon"
+    "category": "Cartoon",
+    "duration": "2h 4m",
+    "language": "Japanese",
+    "director": "Katsuhiro Otomo",
+    "producer": "Ryohei Suzuki, Shunzo Kato",
+    "musicComposer": "Shoji Yamashiro",
+    "releaseDate": "1988-07-16",
+    "starCast": [
+      {
+        "name": "Mitsuo Iwata",
+        "role": "Kaneda"
+      },
+      {
+        "name": "Nozomu Sasaki",
+        "role": "Tetsuo"
+      }
+    ]
   },
   {
     "id": 155,
@@ -492,7 +1252,23 @@
     "genre": "Cartoon",
     "rating": 3.5,
     "releaseYear": 2020,
-    "category": "Cartoon"
+    "category": "Cartoon",
+    "duration": "1h 32m",
+    "language": "English",
+    "director": "Walt Becker",
+    "producer": "Janice Karman, Ross Bagdasarian",
+    "musicComposer": "Mark Mothersbaugh",
+    "releaseDate": "2015-12-18",
+    "starCast": [
+      {
+        "name": "Jason Lee",
+        "role": "Dave"
+      },
+      {
+        "name": "Justin Long",
+        "role": "Alvin (voice)"
+      }
+    ]
   },
   {
     "id": 156,
@@ -503,18 +1279,50 @@
     "genre": "Cartoon",
     "rating": 3.8,
     "releaseYear": 2021,
-    "category": "Cartoon"
+    "category": "Cartoon",
+    "duration": "1h 36m",
+    "language": "English",
+    "director": "Carlos Saldanha",
+    "producer": "Bruce Anderson, John C. Donkin",
+    "musicComposer": "John Powell",
+    "releaseDate": "2011-04-15",
+    "starCast": [
+      {
+        "name": "Jesse Eisenberg",
+        "role": "Blu (voice)"
+      },
+      {
+        "name": "Anne Hathaway",
+        "role": "Jewel (voice)"
+      }
+    ]
   },
   {
     "id": 157,
-    "title": "Angry Bird",
+    "title": "Angry Birds",
     "description": "A captivating cartoon movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://images-cdn.ubuy.co.in/634d1d8cdc948b16496be825-angry-birds-movie-poster-limited-print.jpg",
     "bannerUrl": "https://m.media-amazon.com/images/M/MV5BNzE0YjAzMjktOGE1MS00N2YyLWFiYzItY2UzYTY1ZjhjMGEwXkEyXkFqcGdeQTNwaW5nZXN0._V1_.jpg",
     "genre": "Cartoon",
     "rating": 4.1,
     "releaseYear": 2022,
-    "category": "Cartoon"
+    "category": "Cartoon",
+    "duration": "1h 37m",
+    "language": "English",
+    "director": "Clay Kaytis, Fergal Reilly",
+    "producer": "John Cohen",
+    "musicComposer": "Heitor Pereira",
+    "releaseDate": "2016-05-20",
+    "starCast": [
+      {
+        "name": "Jason Sudeikis",
+        "role": "Red (voice)"
+      },
+      {
+        "name": "Josh Gad",
+        "role": "Chuck (voice)"
+      }
+    ]
   },
   {
     "id": 158,
@@ -525,7 +1333,23 @@
     "genre": "Cartoon",
     "rating": 4.4,
     "releaseYear": 2015,
-    "category": "Cartoon"
+    "category": "Cartoon",
+    "duration": "1h 18m",
+    "language": "English",
+    "director": "Ralph Bakshi",
+    "producer": "Steve Krantz",
+    "musicComposer": "Ed Bogas",
+    "releaseDate": "1972-04-12",
+    "starCast": [
+      {
+        "name": "Skip Hinnant",
+        "role": "Fritz (voice)"
+      },
+      {
+        "name": "Rosetta LeNoire",
+        "role": "Bertha (voice)"
+      }
+    ]
   },
   {
     "id": 159,
@@ -536,7 +1360,23 @@
     "genre": "Cartoon",
     "rating": 4.7,
     "releaseYear": 2016,
-    "category": "Cartoon"
+    "category": "Cartoon",
+    "duration": "1h 23m",
+    "language": "Japanese",
+    "director": "Mamoru Oshii",
+    "producer": "Matsuhisa Ishikawa",
+    "musicComposer": "Kenji Kawai",
+    "releaseDate": "1995-11-18",
+    "starCast": [
+      {
+        "name": "Atsuko Tanaka",
+        "role": "Motoko Kusanagi (voice)"
+      },
+      {
+        "name": "Akio Ōtsuka",
+        "role": "Batou (voice)"
+      }
+    ]
   },
   {
     "id": 160,
@@ -547,7 +1387,23 @@
     "genre": "Cartoon",
     "rating": 3.5,
     "releaseYear": 2017,
-    "category": "Cartoon"
+    "category": "Cartoon",
+    "duration": "1h 34m",
+    "language": "English",
+    "director": "Dorota Kobiela, Hugh Welchman",
+    "producer": "Ivan Mactaggart",
+    "musicComposer": "Clint Mansell",
+    "releaseDate": "2017-06-22",
+    "starCast": [
+      {
+        "name": "Douglas Booth",
+        "role": "Armand Roulin"
+      },
+      {
+        "name": "Saoirse Ronan",
+        "role": "Marguerite Gachet"
+      }
+    ]
   },
   {
     "id": 161,
@@ -558,7 +1414,23 @@
     "genre": "Science Fiction",
     "rating": 3.8,
     "releaseYear": 2016,
-    "category": "Science Fiction"
+    "category": "Science Fiction",
+    "duration": "2h 28m",
+    "language": "English",
+    "director": "Christopher Nolan",
+    "producer": "Emma Thomas, Christopher Nolan",
+    "musicComposer": "Hans Zimmer",
+    "releaseDate": "2010-07-16",
+    "starCast": [
+      {
+        "name": "Leonardo DiCaprio",
+        "role": "Cobb"
+      },
+      {
+        "name": "Joseph Gordon-Levitt",
+        "role": "Arthur"
+      }
+    ]
   },
   {
     "id": 162,
@@ -569,7 +1441,23 @@
     "genre": "Science Fiction",
     "rating": 4.1,
     "releaseYear": 2017,
-    "category": "Science Fiction"
+    "category": "Science Fiction",
+    "duration": "2h 49m",
+    "language": "English",
+    "director": "Christopher Nolan",
+    "producer": "Emma Thomas, Christopher Nolan, Lynda Obst",
+    "musicComposer": "Hans Zimmer",
+    "releaseDate": "2014-11-07",
+    "starCast": [
+      {
+        "name": "Matthew McConaughey",
+        "role": "Cooper"
+      },
+      {
+        "name": "Anne Hathaway",
+        "role": "Brand"
+      }
+    ]
   },
   {
     "id": 163,
@@ -580,7 +1468,23 @@
     "genre": "Science Fiction",
     "rating": 4.4,
     "releaseYear": 2018,
-    "category": "Science Fiction"
+    "category": "Science Fiction",
+    "duration": "2h 16m",
+    "language": "English",
+    "director": "The Wachowskis",
+    "producer": "Joel Silver",
+    "musicComposer": "Don Davis",
+    "releaseDate": "1999-03-31",
+    "starCast": [
+      {
+        "name": "Keanu Reeves",
+        "role": "Neo"
+      },
+      {
+        "name": "Laurence Fishburne",
+        "role": "Morpheus"
+      }
+    ]
   },
   {
     "id": 164,
@@ -591,7 +1495,23 @@
     "genre": "Science Fiction",
     "rating": 4.7,
     "releaseYear": 2019,
-    "category": "Science Fiction"
+    "category": "Science Fiction",
+    "duration": "2h 44m",
+    "language": "English",
+    "director": "Denis Villeneuve",
+    "producer": "Andrew A. Kosove, Broderick Johnson, Cynthia Sikes Yorkin",
+    "musicComposer": "Hans Zimmer, Benjamin Wallfisch",
+    "releaseDate": "2017-10-06",
+    "starCast": [
+      {
+        "name": "Ryan Gosling",
+        "role": "K"
+      },
+      {
+        "name": "Harrison Ford",
+        "role": "Deckard"
+      }
+    ]
   },
   {
     "id": 165,
@@ -602,18 +1522,23 @@
     "genre": "Science Fiction",
     "rating": 3.5,
     "releaseYear": 2020,
-    "category": "Science Fiction"
-  },
-  {
-    "id": 166,
-    "title": "Avatar 2",
-    "description": "A captivating science fiction movie filled with intrigue and emotion.",
-    "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDzvuflCIUMWMmPrX-geM7SrtTA702vI_gKA&s",
-    "bannerUrl": "https://w0.peakpx.com/wallpaper/965/851/HD-wallpaper-avatar-2-2018-poster-fantasy-movie-avatar-2-navi-blue-thumbnail.jpg",
-    "genre": "Science Fiction",
-    "rating": 3.8,
-    "releaseYear": 2021,
-    "category": "Science Fiction"
+    "category": "Science Fiction",
+    "duration": "2h 42m",
+    "language": "English",
+    "director": "James Cameron",
+    "producer": "James Cameron, Jon Landau",
+    "musicComposer": "James Horner",
+    "releaseDate": "2009-12-18",
+    "starCast": [
+      {
+        "name": "Sam Worthington",
+        "role": "Jake Sully"
+      },
+      {
+        "name": "Zoe Saldana",
+        "role": "Neytiri"
+      }
+    ]
   },
   {
     "id": 167,
@@ -624,7 +1549,23 @@
     "genre": "Science Fiction",
     "rating": 4.1,
     "releaseYear": 2022,
-    "category": "Science Fiction"
+    "category": "Science Fiction",
+    "duration": "2h 24m",
+    "language": "English",
+    "director": "Ridley Scott",
+    "producer": "Simon Kinberg, Ridley Scott, Michael Schaefer",
+    "musicComposer": "Harry Gregson-Williams",
+    "releaseDate": "2015-10-02",
+    "starCast": [
+      {
+        "name": "Matt Damon",
+        "role": "Mark Watney"
+      },
+      {
+        "name": "Jessica Chastain",
+        "role": "Melissa Lewis"
+      }
+    ]
   },
   {
     "id": 168,
@@ -635,7 +1576,23 @@
     "genre": "Science Fiction",
     "rating": 4.4,
     "releaseYear": 2015,
-    "category": "Science Fiction"
+    "category": "Science Fiction",
+    "duration": "2h 30m",
+    "language": "English",
+    "director": "Christopher Nolan",
+    "producer": "Emma Thomas, Christopher Nolan",
+    "musicComposer": "Ludwig Göransson",
+    "releaseDate": "2020-09-03",
+    "starCast": [
+      {
+        "name": "John David Washington",
+        "role": "Protagonist"
+      },
+      {
+        "name": "Robert Pattinson",
+        "role": "Neil"
+      }
+    ]
   },
   {
     "id": 169,
@@ -646,7 +1603,23 @@
     "genre": "Science Fiction",
     "rating": 4.7,
     "releaseYear": 2016,
-    "category": "Science Fiction"
+    "category": "Science Fiction",
+    "duration": "1h 48m",
+    "language": "English",
+    "director": "Alex Garland",
+    "producer": "Andrew Macdonald, Allon Reich",
+    "musicComposer": "Ben Salisbury, Geoff Barrow",
+    "releaseDate": "2015-04-24",
+    "starCast": [
+      {
+        "name": "Domhnall Gleeson",
+        "role": "Caleb"
+      },
+      {
+        "name": "Alicia Vikander",
+        "role": "Ava"
+      }
+    ]
   },
   {
     "id": 170,
@@ -657,7 +1630,23 @@
     "genre": "Science Fiction",
     "rating": 3.5,
     "releaseYear": 2017,
-    "category": "Science Fiction"
+    "category": "Science Fiction",
+    "duration": "1h 56m",
+    "language": "English",
+    "director": "Denis Villeneuve",
+    "producer": "Dan Levine, Shawn Levy, Aaron Ryder",
+    "musicComposer": "Jóhann Jóhannsson",
+    "releaseDate": "2016-11-11",
+    "starCast": [
+      {
+        "name": "Amy Adams",
+        "role": "Louise Banks"
+      },
+      {
+        "name": "Jeremy Renner",
+        "role": "Ian Donnelly"
+      }
+    ]
   },
   {
     "id": 171,
@@ -668,7 +1657,23 @@
     "genre": "Hollywood",
     "rating": 3.8,
     "releaseYear": 2016,
-    "category": "Hollywood"
+    "category": "Hollywood",
+    "duration": "2h 12m",
+    "language": "English",
+    "director": "Antoine Fuqua",
+    "producer": "Todd Black, Jason Blumenthal",
+    "musicComposer": "Harry Gregson-Williams",
+    "releaseDate": "2014-09-26",
+    "starCast": [
+      {
+        "name": "Denzel Washington",
+        "role": "Robert McCall"
+      },
+      {
+        "name": "Marton Csokas",
+        "role": "Teddy"
+      }
+    ]
   },
   {
     "id": 172,
@@ -679,7 +1684,23 @@
     "genre": "Hollywood",
     "rating": 4.1,
     "releaseYear": 2017,
-    "category": "Hollywood"
+    "category": "Hollywood",
+    "duration": "1h 32m",
+    "language": "English",
+    "director": "Louis Leterrier, Corey Yuen",
+    "producer": "Luc Besson, Steve Chasman",
+    "musicComposer": "Stanley Clarke",
+    "releaseDate": "2002-10-11",
+    "starCast": [
+      {
+        "name": "Jason Statham",
+        "role": "Frank Martin"
+      },
+      {
+        "name": "Shu Qi",
+        "role": "Lai"
+      }
+    ]
   },
   {
     "id": 173,
@@ -690,7 +1711,23 @@
     "genre": "Hollywood",
     "rating": 4.4,
     "releaseYear": 2018,
-    "category": "Hollywood"
+    "category": "Hollywood",
+    "duration": "2h 23m",
+    "language": "English",
+    "director": "Zack Snyder",
+    "producer": "Charles Roven, Christopher Nolan, Deborah Snyder",
+    "musicComposer": "Hans Zimmer",
+    "releaseDate": "2013-06-14",
+    "starCast": [
+      {
+        "name": "Henry Cavill",
+        "role": "Clark Kent / Superman"
+      },
+      {
+        "name": "Amy Adams",
+        "role": "Lois Lane"
+      }
+    ]
   },
   {
     "id": 174,
@@ -701,29 +1738,50 @@
     "genre": "Hollywood",
     "rating": 4.7,
     "releaseYear": 2019,
-    "category": "Hollywood"
+    "category": "Hollywood",
+    "duration": "2h 4m",
+    "language": "English",
+    "director": "Joe Johnston",
+    "producer": "Kevin Feige",
+    "musicComposer": "Alan Silvestri",
+    "releaseDate": "2011-07-22",
+    "starCast": [
+      {
+        "name": "Chris Evans",
+        "role": "Steve Rogers / Captain America"
+      },
+      {
+        "name": "Hayley Atwell",
+        "role": "Peggy Carter"
+      }
+    ]
   },
   {
     "id": 175,
-    "title": "Fury ",
+    "title": "Fury",
     "description": "A captivating hollywood movie filled with intrigue and emotion.",
     "thumbnailUrl": "https://i.pinimg.com/736x/58/7c/d7/587cd7218ce2d106c3f551c10c61ce70.jpg",
     "bannerUrl": "https://www.indiewire.com/wp-content/uploads/2014/10/fury.jpg?w=600&h=337&crop=1",
     "genre": "Hollywood",
     "rating": 3.5,
     "releaseYear": 2020,
-    "category": "Hollywood"
-  },
-  {
-    "id": 176,
-    "title": "300",
-    "description": "A captivating hollywood movie filled with intrigue and emotion.",
-    "thumbnailUrl": "https://i.pinimg.com/736x/08/d7/54/08d754ef1d6c547159fc79034bd06203.jpg",
-    "bannerUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJRE1YabmTHMwrUPYX7KeyzHvf8wcVXUnKF44IH3qjGAiC8dQ28155Iw8I1SvxIB2IcI4&usqp=CAU",
-    "genre": "Hollywood",
-    "rating": 3.8,
-    "releaseYear": 2021,
-    "category": "Hollywood"
+    "category": "Hollywood",
+    "duration": "2h 14m",
+    "language": "English",
+    "director": "David Ayer",
+    "producer": "Bill Block, David Ayer, Ethan Smith",
+    "musicComposer": "Steven Price",
+    "releaseDate": "2014-10-17",
+    "starCast": [
+      {
+        "name": "Brad Pitt",
+        "role": "Don 'Wardaddy' Collier"
+      },
+      {
+        "name": "Logan Lerman",
+        "role": "Norman Ellison"
+      }
+    ]
   },
   {
     "id": 177,
@@ -734,7 +1792,23 @@
     "genre": "Hollywood",
     "rating": 4.1,
     "releaseYear": 2022,
-    "category": "Hollywood"
+    "category": "Hollywood",
+    "duration": "1h 45m",
+    "language": "English",
+    "director": "Unknown",
+    "producer": "Unknown",
+    "musicComposer": "Unknown",
+    "releaseDate": "2022-06-01",
+    "starCast": [
+      {
+        "name": "Unknown",
+        "role": "Lead"
+      },
+      {
+        "name": "Unknown",
+        "role": "Support"
+      }
+    ]
   },
   {
     "id": 178,
@@ -745,7 +1819,23 @@
     "genre": "Hollywood",
     "rating": 4.4,
     "releaseYear": 2015,
-    "category": "Hollywood"
+    "category": "Hollywood",
+    "duration": "1h 57m",
+    "language": "English",
+    "director": "Sam Hargrave",
+    "producer": "Joe Russo, Anthony Russo, Chris Hemsworth",
+    "musicComposer": "Henry Jackman, Alex Belcher",
+    "releaseDate": "2020-04-24",
+    "starCast": [
+      {
+        "name": "Chris Hemsworth",
+        "role": "Tyler Rake"
+      },
+      {
+        "name": "Rudhraksh Jaiswal",
+        "role": "Ovi Mahajan"
+      }
+    ]
   },
   {
     "id": 179,
@@ -756,7 +1846,23 @@
     "genre": "Hollywood",
     "rating": 4.7,
     "releaseYear": 2016,
-    "category": "Hollywood"
+    "category": "Hollywood",
+    "duration": "2h 35m",
+    "language": "English",
+    "director": "Ridley Scott",
+    "producer": "Douglas Wick, David Franzoni, Branko Lustig",
+    "musicComposer": "Hans Zimmer, Lisa Gerrard",
+    "releaseDate": "2000-05-05",
+    "starCast": [
+      {
+        "name": "Russell Crowe",
+        "role": "Maximus"
+      },
+      {
+        "name": "Joaquin Phoenix",
+        "role": "Commodus"
+      }
+    ]
   },
   {
     "id": 180,
@@ -767,6 +1873,292 @@
     "genre": "Hollywood",
     "rating": 3.5,
     "releaseYear": 2017,
-    "category": "Hollywood"
+    "category": "Hollywood",
+    "duration": "1h 41m",
+    "language": "English",
+    "director": "Chad Stahelski",
+    "producer": "Basil Iwanyk, David Leitch, Eva Longoria",
+    "musicComposer": "Tyler Bates, Joel J. Richard",
+    "releaseDate": "2014-10-24",
+    "starCast": [
+      {
+        "name": "Keanu Reeves",
+        "role": "John Wick"
+      },
+      {
+        "name": "Michael Nyqvist",
+        "role": "Viggo Tarasov"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "title": "Breaking Bad",
+    "description": "A chemistry teacher turned meth producer dives deep into the drug world.",
+    "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzQDB0mYkPgbJpssAW0xryvAfkHP5U1TNuDH04Z6TFHIAyzJkVkwnmI5vvKC4v2JgeuLU&usqp=CAU",
+    "bannerUrl": "https://rukminim2.flixcart.com/image/750/900/xif0q/poster/a/k/z/small-spos7591-poster-tv-show-breaking-bad-aaron-paul-bryan-original-imaghnjpvzzrhyun.jpeg?q=90&crop=false",
+    "genre": "Crime, Drama",
+    "rating": 4.9,
+    "releaseYear": 2008,
+    "category": "Web Series",
+    "duration": "5 Seasons",
+    "language": "English",
+    "director": "Vince Gilligan",
+    "producer": "Melissa Bernstein, Mark Johnson",
+    "musicComposer": "Dave Porter",
+    "releaseDate": "2008-01-20",
+    "starCast": [
+      {
+        "name": "Bryan Cranston",
+        "role": "Walter White"
+      },
+      {
+        "name": "Aaron Paul",
+        "role": "Jesse Pinkman"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "title": "Game of Thrones",
+    "description": "Noble families fight for the Iron Throne while a threat rises in the North.",
+    "thumbnailUrl": "https://i.pinimg.com/736x/ae/8c/21/ae8c21bc78b35923cdd54ef5868915ef.jpg",
+    "bannerUrl": "https://wallpapercat.com/w/full/e/5/1/125605-2880x1620-desktop-hd-game-of-thrones-wallpaper-image.jpg",
+    "genre": "Fantasy, Drama",
+    "rating": 4.8,
+    "releaseYear": 2011,
+    "category": "Web Series",
+    "duration": "8 Seasons",
+    "language": "English",
+    "director": "David Benioff, D. B. Weiss",
+    "producer": "Carolyn Strauss, Frank Doelger",
+    "musicComposer": "Ramin Djawadi",
+    "releaseDate": "2011-04-17",
+    "starCast": [
+      {
+        "name": "Emilia Clarke",
+        "role": "Daenerys Targaryen"
+      },
+      {
+        "name": "Kit Harington",
+        "role": "Jon Snow"
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "title": "Stranger Things",
+    "description": "Kids uncover dark experiments and supernatural mysteries in their town.",
+    "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/52a86cb9e4b098a46d38a18c/1661509706399-AH1SIMXQN03I2VH50SE8/stranger-things-fan-art-tony-santiago.jpg?format=1000w",
+    "bannerUrl": "https://images.squarespace-cdn.com/content/v1/52a86cb9e4b098a46d38a18c/1661509706399-AH1SIMXQN03I2VH50SE8/stranger-things-fan-art-tony-santiago.jpg?format=1000w",
+    "genre": "Sci-Fi, Horror",
+    "rating": 4.6,
+    "releaseYear": 2016,
+    "category": "Web Series",
+    "duration": "4 Seasons",
+    "language": "English",
+    "director": "The Duffer Brothers",
+    "producer": "Shawn Levy",
+    "musicComposer": "Kyle Dixon, Michael Stein",
+    "releaseDate": "2016-07-15",
+    "starCast": [
+      {
+        "name": "Millie Bobby Brown",
+        "role": "Eleven"
+      },
+      {
+        "name": "Finn Wolfhard",
+        "role": "Mike Wheeler"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "title": "The Witcher",
+    "description": "Geralt of Rivia, a monster hunter, struggles to find his place in a world.",
+    "thumbnailUrl": "https://w0.peakpx.com/wallpaper/134/238/HD-wallpaper-the-witcher-thumbnail.jpg",
+    "bannerUrl": "https://w0.peakpx.com/wallpaper/543/810/HD-wallpaper-the-witcher-2022-season-2-tv-series-poster-thumbnail.jpg",
+    "genre": "Fantasy, Action",
+    "rating": 4.3,
+    "releaseYear": 2019,
+    "category": "Web Series",
+    "duration": "3 Seasons",
+    "language": "English",
+    "director": "Lauren Schmidt Hissrich",
+    "producer": "Tomek Baginski",
+    "musicComposer": "Sonya Belousova, Giona Ostinelli",
+    "releaseDate": "2019-12-20",
+    "starCast": [
+      {
+        "name": "Henry Cavill",
+        "role": "Geralt of Rivia"
+      },
+      {
+        "name": "Anya Chalotra",
+        "role": "Yennefer"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "title": "Money Heist",
+    "description": "A criminal mastermind plans the biggest heist in recorded history.",
+    "thumbnailUrl": "https://i.pinimg.com/originals/69/cb/d0/69cbd05c10b7b72407580dfa02d934bd.png",
+    "bannerUrl": "https://images2.alphacoders.com/126/thumb-1920-1262332.jpg",
+    "genre": "Crime, Thriller",
+    "rating": 4.7,
+    "releaseYear": 2017,
+    "category": "Web Series",
+    "duration": "5 Parts",
+    "language": "Spanish",
+    "director": "Álex Pina",
+    "producer": "Álex Pina",
+    "musicComposer": "Manel Santisteban",
+    "releaseDate": "2017-05-02",
+    "starCast": [
+      {
+        "name": "Álvaro Morte",
+        "role": "The Professor"
+      },
+      {
+        "name": "Úrsula Corberó",
+        "role": "Tokyo"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "title": "Peaky Blinders",
+    "description": "A gangster family epic set in 1900s England.",
+    "thumbnailUrl": "https://static.vecteezy.com/system/resources/thumbnails/032/934/012/small/abstract-silhouette-men-inspire-creativity-in-grunge-back-free-photo.jpg",
+    "bannerUrl": "https://wallpapers.com/images/hd/tv-4k-peaky-blinders-cast-6pftbk66v8apumfa.jpg",
+    "genre": "Crime, Drama",
+    "rating": 4.5,
+    "releaseYear": 2013,
+    "category": "Web Series",
+    "duration": "6 Seasons",
+    "language": "English",
+    "director": "Steven Knight",
+    "producer": "Katie Swinden",
+    "musicComposer": "Martin Phipps",
+    "releaseDate": "2013-09-12",
+    "starCast": [
+      {
+        "name": "Cillian Murphy",
+        "role": "Tommy Shelby"
+      },
+      {
+        "name": "Helen McCrory",
+        "role": "Polly Gray"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "title": "Dark",
+    "description": "A time-travel thriller that explores family secrets and cosmic loops.",
+    "thumbnailUrl": "https://i.pinimg.com/736x/ed/02/66/ed02667655d7f05207217a73caaebd68.jpg",
+    "bannerUrl": "https://www.indiewire.com/wp-content/uploads/2019/06/Dark-Season-2.png",
+    "genre": "Sci-Fi, Thriller",
+    "rating": 4.8,
+    "releaseYear": 2017,
+    "category": "Web Series",
+    "duration": "3 Seasons",
+    "language": "German",
+    "director": "Baran bo Odar",
+    "producer": "Quirin Berg",
+    "musicComposer": "Ben Frost",
+    "releaseDate": "2017-12-01",
+    "starCast": [
+      {
+        "name": "Louis Hofmann",
+        "role": "Jonas Kahnwald"
+      },
+      {
+        "name": "Lisa Vicari",
+        "role": "Martha Nielsen"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "title": "The Boys",
+    "description": "A group of vigilantes sets out to take down corrupt superheroes.",
+    "thumbnailUrl": "https://www.cnet.com/a/img/resize/9acd242a310ae26370f4432343cb3c0ca3bdd528/hub/2024/05/04/cda07449-0069-478e-a0ae-cc730b91b579/the-boys-season-4-antony-starr-key-art-prime-video.jpg?auto=webp&width=1200",
+    "bannerUrl": "https://www.cnet.com/a/img/resize/9acd242a310ae26370f4432343cb3c0ca3bdd528/hub/2024/05/04/cda07449-0069-478e-a0ae-cc730b91b579/the-boys-season-4-antony-starr-key-art-prime-video.jpg?auto=webp&width=1200",
+    "genre": "Action, Superhero",
+    "rating": 4.4,
+    "releaseYear": 2019,
+    "category": "Web Series",
+    "duration": "4 Seasons",
+    "language": "English",
+    "director": "Eric Kripke",
+    "producer": "Seth Rogen, Evan Goldberg",
+    "musicComposer": "Christopher Lennertz",
+    "releaseDate": "2019-07-26",
+    "starCast": [
+      {
+        "name": "Karl Urban",
+        "role": "Billy Butcher"
+      },
+      {
+        "name": "Antony Starr",
+        "role": "Homelander"
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "title": "The Crown",
+    "description": "The political rivalries and romances of Queen Elizabeth II's reign.",
+    "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRT7iRZCHylhqqexxg0HAB1mvhNCTdeCc1Tg&s",
+    "bannerUrl": "https://m.media-amazon.com/images/I/61J0HovqMYL._AC_UF350,350_QL80_.jpg",
+    "genre": "Historical Drama",
+    "rating": 4.3,
+    "releaseYear": 2016,
+    "category": "Web Series",
+    "duration": "6 Seasons",
+    "language": "English",
+    "director": "Peter Morgan",
+    "producer": "Andy Harries",
+    "musicComposer": "Hans Zimmer",
+    "releaseDate": "2016-11-04",
+    "starCast": [
+      {
+        "name": "Claire Foy",
+        "role": "Queen Elizabeth II"
+      },
+      {
+        "name": "Matt Smith",
+        "role": "Prince Philip"
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "title": "Sherlock",
+    "description": "A modern update to the classic detective stories of Sherlock Holmes.",
+    "thumbnailUrl": "https://static.vecteezy.com/system/resources/thumbnails/032/934/012/small/abstract-silhouette-men-inspire-creativity-in-grunge-back-free-photo.jpg",
+    "bannerUrl": "https://static.vecteezy.com/system/resources/thumbnails/032/934/012/small/abstract-silhouette-men-inspire-creativity-in-grunge-back-free-photo.jpg",
+    "genre": "Mystery, Crime",
+    "rating": 4.6,
+    "releaseYear": 2010,
+    "category": "Web Series",
+    "duration": "4 Seasons",
+    "language": "English",
+    "director": "Mark Gatiss, Steven Moffat",
+    "producer": "Sue Vertue",
+    "musicComposer": "David Arnold, Michael Price",
+    "releaseDate": "2010-07-25",
+    "starCast": [
+      {
+        "name": "Benedict Cumberbatch",
+        "role": "Sherlock Holmes"
+      },
+      {
+        "name": "Martin Freeman",
+        "role": "John Watson"
+      }
+    ]
   }
 ]

@@ -1,3 +1,25 @@
+class StarCast {
+  final String name;
+  final String role;
+
+  StarCast({
+    required this.name,
+    required this.role,
+  });
+
+  factory StarCast.fromJson(Map<String, dynamic> json) {
+    return StarCast(
+      name: json['name'],
+      role: json['role'],
+    );
+  }
+
+  Map<String, dynamic> toJson() => {
+    'name': name,
+    'role': role,
+  };
+}
+
 class Movie {
   final int id;
   final String title;
@@ -8,6 +30,13 @@ class Movie {
   final double rating;
   final int releaseYear;
   final String category;
+  final String duration;
+  final String language;
+  final String director;
+  final String producer;
+  final String musicComposer;
+  final String releaseDate;
+  final List<StarCast> starCast;
 
   Movie({
     required this.id,
@@ -19,6 +48,13 @@ class Movie {
     required this.rating,
     required this.releaseYear,
     required this.category,
+    required this.duration,
+    required this.language,
+    required this.director,
+    required this.producer,
+    required this.musicComposer,
+    required this.releaseDate,
+    required this.starCast,
   });
 
   factory Movie.fromJson(Map<String, dynamic> json) {
@@ -32,6 +68,34 @@ class Movie {
       rating: (json['rating'] as num).toDouble(),
       releaseYear: json['releaseYear'],
       category: json['category'],
+      duration: json['duration'],
+      language: json['language'],
+      director: json['director'],
+      producer: json['producer'],
+      musicComposer: json['musicComposer'],
+      releaseDate: json['releaseDate'],
+      starCast: (json['starCast'] as List<dynamic>)
+          .map((cast) => StarCast.fromJson(cast))
+          .toList(),
     );
   }
+
+  Map<String, dynamic> toJson() => {
+    'id': id,
+    'title': title,
+    'description': description,
+    'thumbnailUrl': thumbnailUrl,
+    'bannerUrl': bannerUrl,
+    'genre': genre,
+    'rating': rating,
+    'releaseYear': releaseYear,
+    'category': category,
+    'duration': duration,
+    'language': language,
+    'director': director,
+    'producer': producer,
+    'musicComposer': musicComposer,
+    'releaseDate': releaseDate,
+    'starCast': starCast.map((cast) => cast.toJson()).toList(),
+  };
 }

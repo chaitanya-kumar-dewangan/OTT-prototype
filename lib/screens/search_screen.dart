@@ -26,7 +26,7 @@ class _SearchScreenState extends State<SearchScreen> {
             movie.category.toLowerCase().contains(lower) ||
             movie.rating.toString().contains(lower) ||
             movie.releaseYear.toString().contains(lower);
-      }).toList();g
+      }).toList();
     });
   }
 
