@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ott/screens/home_screens.dart';
+import 'package:ott/screens/web_series_screen.dart';
 import '../models/movies.dart';
 import '../screens/categories.dart';
 import 'downloads.dart'; // Make sure path is correct
@@ -29,18 +30,18 @@ class CustomDrawer extends StatelessWidget {
               Navigator.pop(context); // Close drawer first
               Navigator.push(
                 context,
-                MaterialPageRoute(
-                  builder: (_) => HomeScreen(),
-                ),
+                MaterialPageRoute(builder: (_) => HomeScreen()),
               );
-            }
-            // onTap: () => Navigator.pop(context),
+            },
           ),
 
           // Categories
           ListTile(
             leading: const Icon(Icons.category, color: Colors.white),
-            title: const Text('Categories', style: TextStyle(color: Colors.white)),
+            title: const Text(
+              'Categories',
+              style: TextStyle(color: Colors.white),
+            ),
             onTap: () {
               Navigator.pop(context); // Close drawer first
               Navigator.push(
@@ -51,12 +52,23 @@ class CustomDrawer extends StatelessWidget {
               );
             },
           ),
+          ListTile(
+            leading: const Icon(Icons.live_tv_sharp, color: Colors.white),
+            title: const Text('Website', style: TextStyle(color: Colors.white)),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => WebSeriesScreen()),
+              );
+            },
+          ),
 
-          // Downloads
           ListTile(
             leading: const Icon(Icons.download, color: Colors.white),
-            title: const Text('Downloads', style: TextStyle(color: Colors.white)),
-            // onTap: () {},
+            title: const Text(
+              'Downloads',
+              style: TextStyle(color: Colors.white),
+            ),
             onTap: () {
               Navigator.push(
                 context,
@@ -85,7 +97,10 @@ class CustomDrawer extends StatelessWidget {
           // Settings
           ListTile(
             leading: const Icon(Icons.settings, color: Colors.white),
-            title: const Text('Settings', style: TextStyle(color: Colors.white)),
+            title: const Text(
+              'Settings',
+              style: TextStyle(color: Colors.white),
+            ),
             onTap: () {},
           ),
 

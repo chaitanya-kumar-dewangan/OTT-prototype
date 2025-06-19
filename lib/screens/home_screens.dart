@@ -28,8 +28,9 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _loadMovies() async {
-    final String response =
-    await rootBundle.loadString('lib/data/genre_movies.json');
+    final String response = await rootBundle.loadString(
+      'lib/data/genre_movies.json',
+    );
     final List<dynamic> data = json.decode(response);
     setState(() {
       allMovies = data.map((json) => Movie.fromJson(json)).toList();
@@ -82,20 +83,21 @@ class _HomeScreenState extends State<HomeScreen> {
                 filled: true,
                 fillColor: Colors.white10,
                 contentPadding: const EdgeInsets.symmetric(
-                    vertical: 8, horizontal: 16),
+                  vertical: 8,
+                  horizontal: 16,
+                ),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(30),
                   borderSide: BorderSide.none,
                 ),
-                suffixIcon:
-                const Icon(Icons.search, color: Colors.white70),
+                suffixIcon: const Icon(Icons.search, color: Colors.white70),
               ),
             ),
           ),
         ),
       ),
       body: allMovies.isEmpty
-          ? const Center(child: CircularProgressIndicator())
+          ? const Center(child: CircularProgressIndicator(color: Colors.yellow))
           : pages[_selectedIndex],
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.only(left: 16, right: 16, bottom: 3.0),
@@ -147,8 +149,7 @@ class _HomeScreenState extends State<HomeScreen> {
         for (final category in categories)
           CategorySection(
             title: category,
-            movies:
-            allMovies.where((m) => m.category == category).toList(),
+            movies: allMovies.where((m) => m.category == category).toList(),
             onMovieTap: (movie) {
               Navigator.push(
                 context,
