@@ -1,5 +1,6 @@
 // import 'package:flutter/material.dart';
 // import '../models/movies.dart';
+// import '../screens/genere_view_all-screen.dart';
 //
 // class CategorySection extends StatelessWidget {
 //   final String title;
@@ -18,17 +19,44 @@
 //     return Column(
 //       crossAxisAlignment: CrossAxisAlignment.start,
 //       children: [
+//         // Title Row with View All Button
 //         Padding(
-//           padding: const EdgeInsets.all(12.0),
-//           child: Text(
-//             title,
-//             style: const TextStyle(
-//               fontSize: 18,
-//               fontWeight: FontWeight.bold,
-//               color: Colors.white,
-//             ),
+//           padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 8),
+//           child: Row(
+//             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//             children: [
+//
+//               Text(
+//                 title,
+//                 style: const TextStyle(
+//                   fontSize: 18,
+//                   fontWeight: FontWeight.bold,
+//                   color: Colors.white,
+//                 ),
+//               ),
+//               TextButton.icon(
+//                 onPressed: () {
+//                   Navigator.push(
+//                     context,
+//                     MaterialPageRoute(
+//                       builder: (_) => GenreViewAllScreen(
+//                         genre: title,
+//                         movies: movies,
+//                       ),
+//                     ),
+//                   );
+//                 },
+//                 icon: Icon(Icons.grid_view, color: Colors.blueAccent.shade700, size: 18),
+//                 label:  Text(
+//                   'View All',
+//                   style: TextStyle(color: Colors.blueAccent.shade700, fontSize: 14),
+//                 ),
+//               ),
+//             ],
 //           ),
 //         ),
+//
+//         // Horizontal movie list
 //         SizedBox(
 //           height: 160,
 //           child: ListView.builder(
@@ -50,7 +78,7 @@
 //                           height: 137,
 //                           fit: BoxFit.cover,
 //                           errorBuilder: (_, __, ___) =>
-//                               const Icon(Icons.error, color: Colors.white),
+//                           const Icon(Icons.error, color: Colors.white),
 //                         ),
 //                       ),
 //                       const SizedBox(height: 5),
@@ -77,7 +105,9 @@
 //     );
 //   }
 // }
+
 import 'package:flutter/material.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import '../models/movies.dart';
 import '../screens/genere_view_all-screen.dart';
 
@@ -104,7 +134,6 @@ class CategorySection extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-
               Text(
                 title,
                 style: const TextStyle(
@@ -125,10 +154,10 @@ class CategorySection extends StatelessWidget {
                     ),
                   );
                 },
-                icon: Icon(Icons.grid_view, color: Colors.blueAccent.shade700, size: 18),
-                label:  Text(
+                icon: Icon(Icons.grid_view, color: Colors.yellow, size: 18),
+                label: Text(
                   'View All',
-                  style: TextStyle(color: Colors.blueAccent.shade700, fontSize: 14),
+                  style: TextStyle(color: Colors.yellow, fontSize: 14),
                 ),
               ),
             ],
@@ -151,12 +180,18 @@ class CategorySection extends StatelessWidget {
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(8),
-                        child: Image.network(
-                          movie.thumbnailUrl,
+                        child: CachedNetworkImage(
+                          imageUrl: movie.thumbnailUrl,
                           width: 112,
                           height: 137,
                           fit: BoxFit.cover,
-                          errorBuilder: (_, __, ___) =>
+                          placeholder: (context, url) =>  Center(
+                            child: CircularProgressIndicator(
+                              strokeWidth: 2,
+                              color: Colors.yellow,
+                            ),
+                          ),
+                          errorWidget: (context, url, error) =>
                           const Icon(Icons.error, color: Colors.white),
                         ),
                       ),

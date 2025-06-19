@@ -1,10 +1,13 @@
 // import 'dart:convert';
 // import 'package:flutter/material.dart';
 // import 'package:flutter/services.dart';
+// import 'package:ott/screens/downloads.dart';
 // import '../models/movies.dart';
 // import '../widgets/banner_carausel.dart';
 // import '../widgets/category_section.dart';
 // import 'detail_screen.dart';
+// import 'drawer.dart';
+// import 'search_screen.dart'; // <== Don't forget this import
 //
 // class HomeScreen extends StatefulWidget {
 //   const HomeScreen({super.key});
@@ -39,42 +42,76 @@
 //
 //     final List<Widget> pages = [
 //       _buildHomeContent(categories),
-//       const Center(
-//         child: Text('Movies', style: TextStyle(color: Colors.white)),
-//       ),
+//       // const Center(
+//       //   child: Text('Movies', style: TextStyle(color: Colors.white)),
+//       // ),
+//       DownloadsScreen2(allMovies: allMovies),
 //       const Center(
 //         child: Text('Web Series', style: TextStyle(color: Colors.white)),
 //       ),
-//       const Center(
-//         child: Text('Saved', style: TextStyle(color: Colors.white)),
-//       ),
+//       DownloadsScreen2(allMovies: allMovies),
+//
 //     ];
 //
 //     return Scaffold(
 //       extendBody: true,
 //       backgroundColor: Colors.black,
+//       drawer: CustomDrawer(allMovies: allMovies),
+//
 //       appBar: AppBar(
-//         title: const Text("CinestreamX", style: TextStyle(color: Colors.white)),
 //         backgroundColor: Colors.transparent,
 //         elevation: 0,
+//         leading: Builder(
+//           builder: (context) => IconButton(
+//             icon: const Icon(Icons.menu, color: Colors.white),
+//             onPressed: () => Scaffold.of(context).openDrawer(),
+//           ),
+//         ),
+//         title: GestureDetector(
+//           onTap: () {
+//             Navigator.push(
+//               context,
+//               MaterialPageRoute(
+//                 builder: (_) => SearchScreen(allMovies: allMovies),
+//               ),
+//             );
+//           },
+//           child: AbsorbPointer(
+//             child: TextField(
+//               readOnly: true,
+//               style: const TextStyle(color: Colors.white),
+//               decoration: InputDecoration(
+//                 hintText: 'Search movies...',
+//                 hintStyle: const TextStyle(color: Colors.white70),
+//                 filled: true,
+//                 fillColor: Colors.white10,
+//                 contentPadding: const EdgeInsets.symmetric(
+//                   vertical: 8,
+//                   horizontal: 16,
+//                 ),
+//                 border: OutlineInputBorder(
+//                   borderRadius: BorderRadius.circular(30),
+//                   borderSide: BorderSide.none,
+//                 ),
+//                 suffixIcon: const Icon(Icons.search, color: Colors.white70),
+//               ),
+//             ),
+//           ),
+//         ),
 //       ),
+//
 //       body: pages[_selectedIndex],
 //
-//       // Custom transparent bottom nav
 //       bottomNavigationBar: Padding(
 //         padding: const EdgeInsets.only(left: 16, right: 16, bottom: 3.0),
 //         child: ClipRRect(
 //           borderRadius: BorderRadius.circular(30),
 //           child: Container(
 //             height: 60,
-//             decoration: BoxDecoration(
-//               color: Colors.transparent,
-//               // border: Border.all(color: Colors.white30,)// Fully transparent
-//               // color: Colors.transparent, // Fully transparent
-//             ),
+//             decoration: const BoxDecoration(color: Colors.transparent),
 //             child: Container(
 //               decoration: BoxDecoration(
-//                 color: Colors.black.withOpacity(0.8), // Optional subtle blur
+//                 color: Colors.black.withOpacity(0.8),
 //                 borderRadius: BorderRadius.circular(30),
 //                 border: Border.all(color: Colors.white38),
 //               ),
@@ -101,7 +138,7 @@
 //       child: Icon(
 //         icon,
 //         size: 28,
-//         color: isSelected ? Colors.white : Colors.grey,
+//         color: isSelected ? Colors.yellow : Colors.white70,
 //       ),
 //     );
 //   }
@@ -140,10 +177,13 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:ott/screens/downloads.dart';
 import '../models/movies.dart';
 import '../widgets/banner_carausel.dart';
 import '../widgets/category_section.dart';
 import 'detail_screen.dart';
+import 'drawer.dart';
+import 'search_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -155,8 +195,6 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   List<Movie> allMovies = [];
   int _selectedIndex = 0;
-  TextEditingController _searchController = TextEditingController();
-  String searchQuery = '';
 
   @override
   void initState() {
@@ -165,88 +203,74 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _loadMovies() async {
-    final String response = await rootBundle.loadString(
-      'lib/data/genre_movies.json',
-    );
+    final String response =
+    await rootBundle.loadString('lib/data/genre_movies.json');
     final List<dynamic> data = json.decode(response);
     setState(() {
       allMovies = data.map((json) => Movie.fromJson(json)).toList();
     });
   }
 
-  List<Movie> _filteredMovies() {
-    if (searchQuery.isEmpty) return allMovies;
-
-    return allMovies.where((movie) {
-      final query = searchQuery.toLowerCase();
-      return movie.title.toLowerCase().contains(query) ||
-          movie.description.toLowerCase().contains(query) ||
-          movie.genre.toLowerCase().contains(query) ||
-          movie.category.toLowerCase().contains(query) ||
-          movie.releaseYear.toString().contains(query) ||
-          movie.rating.toString().contains(query);
-    }).toList();
-  }
-
   @override
   Widget build(BuildContext context) {
-    final filtered = _filteredMovies();
-    final categories = filtered.map((m) => m.category).toSet().toList();
+    final categories = allMovies.map((m) => m.category).toSet().toList();
 
     final List<Widget> pages = [
-      _buildHomeContent(categories, filtered),
-      const Center(
-        child: Text('Movies', style: TextStyle(color: Colors.white)),
-      ),
+      _buildHomeContent(categories),
+      DownloadsScreen2(allMovies: allMovies),
       const Center(
         child: Text('Web Series', style: TextStyle(color: Colors.white)),
       ),
-      const Center(
-        child: Text('Saved', style: TextStyle(color: Colors.white)),
-      ),
+      DownloadsScreen2(allMovies: allMovies),
     ];
 
     return Scaffold(
       extendBody: true,
       backgroundColor: Colors.black,
+      drawer: CustomDrawer(allMovies: allMovies),
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
-        title: TextField(
-          controller: _searchController,
-          style: const TextStyle(color: Colors.white),
-          decoration: InputDecoration(
-            hintText: 'Search movies...',
-            hintStyle: TextStyle(color: Colors.white70),
-            filled: true,
-            fillColor: Colors.white10,
-            contentPadding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
-            border: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(30),
-              borderSide: BorderSide.none,
-            ),
-            prefixIcon: const Icon(Icons.search, color: Colors.white70),
-            suffixIcon: _searchController.text.isNotEmpty
-                ? IconButton(
-              icon: const Icon(Icons.clear, color: Colors.white),
-              onPressed: () {
-                _searchController.clear();
-                setState(() {
-                  searchQuery = '';
-                });
-              },
-            )
-                : null,
+        leading: Builder(
+          builder: (context) => IconButton(
+            icon: const Icon(Icons.menu, color: Colors.white),
+            onPressed: () => Scaffold.of(context).openDrawer(),
           ),
-          onChanged: (value) {
-            setState(() {
-              searchQuery = value;
-            });
+        ),
+        title: GestureDetector(
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (_) => SearchScreen(allMovies: allMovies),
+              ),
+            );
           },
+          child: AbsorbPointer(
+            child: TextField(
+              readOnly: true,
+              style: const TextStyle(color: Colors.white),
+              decoration: InputDecoration(
+                hintText: 'Search movies...',
+                hintStyle: const TextStyle(color: Colors.white70),
+                filled: true,
+                fillColor: Colors.white10,
+                contentPadding: const EdgeInsets.symmetric(
+                    vertical: 8, horizontal: 16),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(30),
+                  borderSide: BorderSide.none,
+                ),
+                suffixIcon:
+                const Icon(Icons.search, color: Colors.white70),
+              ),
+            ),
+          ),
         ),
       ),
-      body: pages[_selectedIndex],
-
+      body: allMovies.isEmpty
+          ? const Center(child: CircularProgressIndicator())
+          : pages[_selectedIndex],
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.only(left: 16, right: 16, bottom: 3.0),
         child: ClipRRect(
@@ -254,23 +278,18 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Container(
             height: 60,
             decoration: BoxDecoration(
-              color: Colors.transparent,
+              color: Colors.black.withOpacity(0.8),
+              borderRadius: BorderRadius.circular(30),
+              border: Border.all(color: Colors.white38),
             ),
-            child: Container(
-              decoration: BoxDecoration(
-                color: Colors.black.withOpacity(0.8),
-                borderRadius: BorderRadius.circular(30),
-                border: Border.all(color: Colors.white38),
-              ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  _buildNavIcon(Icons.home_rounded, 0),
-                  _buildNavIcon(Icons.movie_rounded, 1),
-                  _buildNavIcon(Icons.tv_rounded, 2),
-                  _buildNavIcon(Icons.bookmark_rounded, 3),
-                ],
-              ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                _buildNavIcon(Icons.home_rounded, 0),
+                _buildNavIcon(Icons.movie_rounded, 1),
+                _buildNavIcon(Icons.tv_rounded, 2),
+                _buildNavIcon(Icons.bookmark_rounded, 3),
+              ],
             ),
           ),
         ),
@@ -285,33 +304,31 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Icon(
         icon,
         size: 28,
-        color: isSelected ? Colors.white : Colors.grey,
+        color: isSelected ? Colors.yellow : Colors.white70,
       ),
     );
   }
 
-  Widget _buildHomeContent(List<String> categories, List<Movie> filteredMovies) {
-    return allMovies.isEmpty
-        ? const Center(child: CircularProgressIndicator())
-        : ListView(
+  Widget _buildHomeContent(List<String> categories) {
+    return ListView(
       padding: const EdgeInsets.only(bottom: 60),
       children: [
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 8.0),
-          child: BannerCarousel(banners: filteredMovies.take(5).toList()),
+          child: BannerCarousel(banners: allMovies.take(5).toList()),
         ),
         const SizedBox(height: 8),
         for (final category in categories)
           CategorySection(
             title: category,
-            movies: filteredMovies
-                .where((m) => m.category == category)
-                .toList(),
+            movies:
+            allMovies.where((m) => m.category == category).toList(),
             onMovieTap: (movie) {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (_) => MovieDetailScreen(movie: movie),
+                  builder: (_) =>
+                      MovieDetailScreen(movie: movie, allMovies: allMovies),
                 ),
               );
             },

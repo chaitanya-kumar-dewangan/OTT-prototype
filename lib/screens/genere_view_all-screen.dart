@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import '../models/movies.dart';
 import 'detail_screen.dart';
 
@@ -36,7 +37,7 @@ class GenreViewAllScreen extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (_) => MovieDetailScreen(movie: movie),
+                  builder: (_) => MovieDetailScreen(movie: movie, allMovies: [],),
                 ),
               );
             },
@@ -46,10 +47,16 @@ class GenreViewAllScreen extends StatelessWidget {
                 Expanded(
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(12),
-                    child: Image.network(
-                      movie.thumbnailUrl,
+                    child: CachedNetworkImage(
+                      imageUrl: movie.thumbnailUrl,
                       fit: BoxFit.cover,
                       width: double.infinity,
+                      placeholder: (context, url) => const Center(
+                        child: CircularProgressIndicator(color: Colors.yellow),
+                      ),
+                      errorWidget: (context, url, error) => const Center(
+                        child: Icon(Icons.error, color: Colors.white),
+                      ),
                     ),
                   ),
                 ),
@@ -58,7 +65,10 @@ class GenreViewAllScreen extends StatelessWidget {
                   movie.title,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
-                  style: const TextStyle(color: Colors.white),
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w500,
+                  ),
                 ),
               ],
             ),
