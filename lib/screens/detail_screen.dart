@@ -43,12 +43,15 @@ class MovieDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final List<Movie> topRecommendations = allMovies
-        .where((m) => m.category == movie.category && m.id != movie.id)
-        .toList()
-      ..shuffle(Random());
+    final List<Movie> topRecommendations =
+        allMovies
+            .where((m) => m.category == movie.category && m.id != movie.id)
+            .toList()
+          ..shuffle(Random());
 
-    final List<Movie> displayedRecommendations = topRecommendations.take(6).toList();
+    final List<Movie> displayedRecommendations = topRecommendations
+        .take(6)
+        .toList();
 
     return Scaffold(
       backgroundColor: Colors.black,
@@ -67,7 +70,9 @@ class MovieDetailScreen extends StatelessWidget {
                   fit: BoxFit.cover,
                   placeholder: (context, url) => const SizedBox(
                     height: 250,
-                    child: Center(child: CircularProgressIndicator(color: Colors.yellow)),
+                    child: Center(
+                      child: CircularProgressIndicator(color: Colors.yellow),
+                    ),
                   ),
                   errorWidget: (context, url, error) => const SizedBox(
                     height: 250,
@@ -87,7 +92,7 @@ class MovieDetailScreen extends StatelessWidget {
                       Colors.transparent,
                       Colors.transparent,
                       Colors.transparent,
-                      Colors.black
+                      Colors.black,
                     ],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
@@ -97,7 +102,8 @@ class MovieDetailScreen extends StatelessWidget {
               IconButton(
                 iconSize: 64,
                 icon: const Icon(Icons.play_circle_fill, color: Colors.black45),
-                onPressed: () => _showDialog(context, "Available Soon only on CinestreamX"),
+                onPressed: () =>
+                    _showDialog(context, "Available Soon only on CinestreamX"),
               ),
               Positioned(
                 left: 16,
@@ -118,7 +124,6 @@ class MovieDetailScreen extends StatelessWidget {
                       "${movie.releaseYear} • ${movie.genre} • ⭐ ${movie.rating}",
                       style: const TextStyle(color: Colors.white, fontSize: 14),
                     ),
-
                   ],
                 ),
               ),
@@ -150,18 +155,23 @@ class MovieDetailScreen extends StatelessWidget {
                         ),
                         icon: const Icon(Icons.play_arrow),
                         label: const Text("Play"),
-                        onPressed: () => _showDialog(context, "Available Soon only on CinestreamX"),
+                        onPressed: () => _showDialog(
+                          context,
+                          "Available Soon only on CinestreamX",
+                        ),
                       ),
                     ),
                     const SizedBox(width: 12),
                     IconButton(
-                      icon: const Icon(Icons.bookmark_border, color: Colors.white),
+                      icon: const Icon(
+                        Icons.bookmark_border,
+                        color: Colors.white,
+                      ),
                       onPressed: () => _showDialog(context, "Coming Soon"),
                     ),
                   ],
                 ),
                 const SizedBox(height: 15),
-
 
                 _buildInfoRow("Language", movie.language),
                 _buildInfoRow("Director", movie.director),
@@ -172,21 +182,34 @@ class MovieDetailScreen extends StatelessWidget {
                 const SizedBox(height: 10),
                 const Text(
                   'Star Cast',
-                  style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
                 const SizedBox(height: 8),
-                ...movie.starCast.map((actor) => Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 2.0),
-                  child: Text(
-                    '${actor.name} as ${actor.role}',
-                    style: const TextStyle(color: Colors.white70, fontSize: 14),
+                ...movie.starCast.map(
+                  (actor) => Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 2.0),
+                    child: Text(
+                      '${actor.name} as ${actor.role}',
+                      style: const TextStyle(
+                        color: Colors.white70,
+                        fontSize: 14,
+                      ),
+                    ),
                   ),
-                )),
+                ),
 
                 const SizedBox(height: 10),
                 const Text(
                   'You May Like',
-                  style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
                 const SizedBox(height: 12),
               ],
@@ -229,17 +252,21 @@ class MovieDetailScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         ClipRRect(
-                          borderRadius: const BorderRadius.vertical(top: Radius.circular(12)),
+                          borderRadius: const BorderRadius.vertical(
+                            top: Radius.circular(12),
+                          ),
                           child: CachedNetworkImage(
                             imageUrl: recMovie.thumbnailUrl,
                             height: 160,
                             width: double.infinity,
                             fit: BoxFit.cover,
                             placeholder: (context, url) => const Center(
-                              child: CircularProgressIndicator(color: Colors.yellow),
+                              child: CircularProgressIndicator(
+                                color: Colors.yellow,
+                              ),
                             ),
                             errorWidget: (context, url, error) =>
-                            const Icon(Icons.error, color: Colors.white),
+                                const Icon(Icons.error, color: Colors.white),
                           ),
                         ),
                         Padding(
