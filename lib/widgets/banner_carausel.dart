@@ -44,7 +44,7 @@ class BannerCarousel extends StatelessWidget {
                     width: double.infinity,
                     placeholder: (context, url) => Container(
                       color: Colors.black26,
-                      child: const Center(child: CircularProgressIndicator(color: Colors.yellow)),
+                      child: const Center(child: CircularProgressIndicator(color: Colors.white)),
                     ),
                     errorWidget: (context, url, error) => const Center(
                       child: Icon(Icons.error, color: Colors.white),
