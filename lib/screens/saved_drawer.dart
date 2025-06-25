@@ -1,4 +1,3 @@
-
 import 'dart:math';
 import 'dart:ui';
 import 'package:flutter/material.dart';
@@ -6,10 +5,10 @@ import 'package:cached_network_image/cached_network_image.dart';
 import '../models/movies.dart';
 import 'detail_screen.dart';
 
-class DownloadsScreen2 extends StatelessWidget {
+class SavedDrawer extends StatelessWidget {
   final List<Movie> allMovies;
 
-  const DownloadsScreen2({super.key, required this.allMovies});
+  const SavedDrawer({super.key, required this.allMovies});
 
   static const Color navy = Color(0xFF001F3F);
   static const Color darkRed = Color(0xFF8B0000);
@@ -20,6 +19,37 @@ class DownloadsScreen2 extends StatelessWidget {
     final List<Movie> downloads = shuffled.take(30).toList();
 
     return Scaffold(
+      appBar: AppBar(
+        surfaceTintColor: navy,
+        backgroundColor: navy,
+        elevation: 0,
+        centerTitle: true,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back, color: Colors.white),
+          onPressed: () => Navigator.pop(context),
+        ),
+        title: const Text(
+          'Saved',
+          style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
+        ),
+        flexibleSpace: ClipRRect(
+          borderRadius: const BorderRadius.vertical(bottom: Radius.circular(20)),
+          child: BackdropFilter(
+            filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
+            child: Container(
+              decoration: const BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [Color(0xFF001F3F), Color(0xFF001F3F)],
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                ),
+                borderRadius: BorderRadius.vertical(bottom: Radius.circular(20)),
+              ),
+            ),
+          ),
+        ),
+      ),
+
       backgroundColor: Colors.transparent,
       body: Stack(
         children: [
@@ -76,25 +106,36 @@ class DownloadsScreen2 extends StatelessWidget {
                       filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
                       child: Container(
                         decoration: BoxDecoration(
+                          // color: Colors.red,
                           color: Colors.white.withOpacity(0.08),
                           borderRadius: BorderRadius.circular(12),
-                          border: Border.all(color: Colors.white.withOpacity(0.15)),
+                          border: Border.all(
+                            color: Colors.white.withOpacity(0.15),
+                          ),
                         ),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             // Movie thumbnail
                             ClipRRect(
-                              borderRadius: const BorderRadius.vertical(top: Radius.circular(12)),
+                              borderRadius: const BorderRadius.vertical(
+                                top: Radius.circular(12),
+                              ),
                               child: CachedNetworkImage(
                                 imageUrl: movie.thumbnailUrl,
                                 height: 180,
                                 width: double.infinity,
                                 fit: BoxFit.cover,
                                 placeholder: (context, url) => const Center(
-                                  child: CircularProgressIndicator(color: Colors.redAccent),
+                                  child: CircularProgressIndicator(
+                                    color: Colors.redAccent,
+                                  ),
                                 ),
-                                errorWidget: (context, url, error) => const Icon(Icons.error, color: Colors.white),
+                                errorWidget: (context, url, error) =>
+                                    const Icon(
+                                      Icons.error,
+                                      color: Colors.white,
+                                    ),
                               ),
                             ),
                             // Movie info
@@ -116,7 +157,10 @@ class DownloadsScreen2 extends StatelessWidget {
                                   const SizedBox(height: 4),
                                   Text(
                                     '${movie.genre} | ${movie.releaseYear}',
-                                    style: const TextStyle(color: Colors.white70, fontSize: 12),
+                                    style: const TextStyle(
+                                      color: Colors.white70,
+                                      fontSize: 12,
+                                    ),
                                   ),
                                 ],
                               ),

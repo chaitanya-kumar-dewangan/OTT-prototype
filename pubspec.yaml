@@ -37,6 +37,9 @@ dependencies:
   carousel_slider:
   http:
   cached_network_image:
+  youtube_player_flutter:
+  photo_view:
+
 
 dev_dependencies:
   flutter_test:

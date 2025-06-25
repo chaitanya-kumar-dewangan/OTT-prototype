@@ -10,52 +10,35 @@ class BannerCarousel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        const Padding(
-          padding: EdgeInsets.symmetric(horizontal: 8.0, vertical: 6),
-          child: Text(
-            "New Releases:",
-            style: TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-              fontSize: 20.0,
-            ),
-            textAlign: TextAlign.left,
-          ),
-        ),
-        CarouselSlider(
-          options: CarouselOptions(
-            height: 170,
-            autoPlay: true,
-            enlargeCenterPage: true,
-            viewportFraction: 1.0,
-            aspectRatio: 16 / 9,
-          ),
-          items: banners.map((movie) {
-            return Builder(
-              builder: (context) {
-                return ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: CachedNetworkImage(
-                    imageUrl: movie.bannerUrl,
-                    fit: BoxFit.cover,
-                    width: double.infinity,
-                    placeholder: (context, url) => Container(
-                      color: Colors.black26,
-                      child: const Center(child: CircularProgressIndicator(color: Colors.white)),
-                    ),
-                    errorWidget: (context, url, error) => const Center(
-                      child: Icon(Icons.error, color: Colors.white),
-                    ),
-                  ),
-                );
-              },
+    return CarouselSlider(
+      options: CarouselOptions(
+        height: 170,
+        autoPlay: true,
+        enlargeCenterPage: true,
+        viewportFraction: 1.0,
+        aspectRatio: 16 / 9,
+      ),
+      items: banners.map((movie) {
+        return Builder(
+          builder: (context) {
+            return ClipRRect(
+              borderRadius: BorderRadius.circular(8),
+              child: CachedNetworkImage(
+                imageUrl: movie.bannerUrl,
+                fit: BoxFit.cover,
+                width: double.infinity,
+                placeholder: (context, url) => Container(
+                  color: Colors.black26,
+                  child: const Center(child: CircularProgressIndicator(color: Colors.white)),
+                ),
+                errorWidget: (context, url, error) => const Center(
+                  child: Icon(Icons.error, color: Colors.white),
+                ),
+              ),
             );
-          }).toList(),
-        ),
-      ],
+          },
+        );
+      }).toList(),
     );
   }
 }
