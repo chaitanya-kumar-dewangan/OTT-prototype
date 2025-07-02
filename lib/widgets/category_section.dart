@@ -46,10 +46,10 @@ class CategorySection extends StatelessWidget {
                     ),
                   );
                 },
-                icon: Icon(Icons.grid_view, color: Colors.yellow, size: 18),
+                icon: Icon(Icons.grid_view, color: Colors.white, size: 18),
                 label: Text(
                   'View All',
-                  style: TextStyle(color: Colors.yellow, fontSize: 14),
+                  style: TextStyle(color: Colors.white, fontSize: 14),
                 ),
               ),
             ],
@@ -80,7 +80,7 @@ class CategorySection extends StatelessWidget {
                           placeholder: (context, url) =>  Center(
                             child: CircularProgressIndicator(
                               strokeWidth: 2,
-                              color: Colors.yellow,
+                              color: Colors.white,
                             ),
                           ),
                           errorWidget: (context, url, error) =>

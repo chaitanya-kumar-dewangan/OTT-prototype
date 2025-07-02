@@ -7,7 +7,6 @@ import 'detail_screen.dart';
 
 class SavedDrawer extends StatelessWidget {
   final List<Movie> allMovies;
-
   const SavedDrawer({super.key, required this.allMovies});
 
   static const Color navy = Color(0xFF001F3F);

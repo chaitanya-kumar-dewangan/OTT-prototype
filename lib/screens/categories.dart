@@ -106,12 +106,12 @@ class CategoriesScreen extends StatelessWidget {
                           children: [
                             Expanded(
                               child: ClipRRect(
-                                borderRadius: const BorderRadius.vertical(top: Radius.circular(16)),
+                                borderRadius:  BorderRadius.vertical(top: Radius.circular(16)),
                                 child: CachedNetworkImage(
                                   imageUrl: movie.bannerUrl,
                                   fit: BoxFit.cover,
-                                  placeholder: (context, url) => const Center(
-                                    child: CircularProgressIndicator(color: Colors.yellow),
+                                  placeholder: (context, url) => Center(
+                                    child: CircularProgressIndicator(color: Colors.red.shade800),
                                   ),
                                   errorWidget: (context, url, error) => const Center(
                                     child: Icon(Icons.error, color: Colors.white),

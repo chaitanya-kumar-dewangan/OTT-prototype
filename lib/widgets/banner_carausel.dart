@@ -5,7 +5,6 @@ import '../models/movies.dart';
 
 class BannerCarousel extends StatelessWidget {
   final List<Movie> banners;
-
   const BannerCarousel({super.key, required this.banners});
 
   @override
